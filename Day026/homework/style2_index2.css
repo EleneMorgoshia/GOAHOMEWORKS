@@ -1,0 +1,78 @@
+/* styling second page  */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&display=swap');
+h1{
+    font-size:50px;
+    font-family:Dancing Script;
+    color:white;
+}
+
+body{
+    background-color: rgb(11, 8, 8);
+    background-image: url('/Day026/images/first-page-background-pic.jpg');
+    background-size: 1300px;
+}
+
+.pic-1{
+    border-radius: 50%;
+}
+
+.p-1{
+    font-family:Dancing Script;
+    color:white;
+    font-size: xx-large;
+}
+
+.p-2{
+    font-family:Dancing Script;
+    color:white;
+    font-size: x-large;
+}
+
+.p-3{
+    font-family:Dancing Script;
+    color:white;
+    font-size: xx-large;
+}
+
+.p-4{
+    font-family:Dancing Script;
+    color:white;
+    font-size: x-large;
+}
+
+.pic-2{
+    border-radius: 50%;
+}
+
+.p-5{
+    font-family:Dancing Script;
+    color:white;
+    font-size: xx-large;
+}
+
+.p-6{
+    font-family:Dancing Script;
+    color:white;
+    font-size: x-large;
+}
+
+.pic-3{
+    border-radius: 48%;
+
+}
+
+.p-7{
+    font-family:Dancing Script;
+    color:white;
+    font-size: xx-large;
+}
+
+.p-8{
+    font-family:Dancing Script;
+    color:white;
+    font-size: x-large;
+}
+
+.pic-4{
+    border-radius: 50%;
+}

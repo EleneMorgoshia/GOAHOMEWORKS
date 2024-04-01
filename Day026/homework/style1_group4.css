@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+h1{
+    font-size: 70px;
+    text-align:center;
+    font-family:Anton;
+}
+
+button{
+    background-color: red;
+    font-size: large;
+    color: black;
+}
+
+body{
+    background-color: rgb(100, 12, 12);
+    background-image: url("/Day026/images/movie-pic-1.jpg");
+    background-size: 1250px;
+}

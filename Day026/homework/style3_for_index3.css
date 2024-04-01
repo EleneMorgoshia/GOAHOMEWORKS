@@ -1,0 +1,20 @@
+/* styling the third page(shindler's_list_soundtracks) */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&display=swap');
+h1{
+    font-family:Dancing Script ;
+    font-size:60px;
+    color:black;
+}
+
+body{
+    background-color: black;
+    color:white;
+    font-family:Dancing Script;
+    background-image:url('/Day026/images/schindler_s_list-pic-2.jpg');
+    background-size: 1250px;
+}
+
+table{
+    color:white;
+    width: bold;
+}

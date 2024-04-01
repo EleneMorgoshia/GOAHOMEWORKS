@@ -1,0 +1,15 @@
+/* styling 5th page ( tiflisi) */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&display=swap');
+h1{
+    font-family:Dancing Script;
+    font-size:60px;
+    color:black;
+}
+
+body{
+
+    color:white;
+    font-family:Dancing Script;
+    background-image: url('/Day026/images/tiflisi-pic-2.jpg');
+    background-size: 1300px;
+}

@@ -1,0 +1,19 @@
+/* styling forth page(your lie in April */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&display=swap');
+h1{
+    font-family: Dancing Script ;
+    font-size:50px;
+    
+}
+
+body{
+  
+    color: black;
+    font-family: Dancing Script;
+    background-image: url('/Day026/images/your-lie-in-april-pic-3.jpg');
+    background-size: 1300px;
+}
+
+table{
+    color:black
+}
