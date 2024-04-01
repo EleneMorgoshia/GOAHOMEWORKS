@@ -1,0 +1,25 @@
+body{
+    color:white;
+    background-color: black;
+}
+
+p{
+    color: white;
+}
+h2{
+    color:white;
+}
+
+#first_name{
+    color:red;
+}
+
+.name{
+    color:white;
+}
+.last_name{
+    color:white;
+}
+.pic-1{
+    border-radius: 45%;
+}
