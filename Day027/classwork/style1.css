@@ -1,0 +1,29 @@
+p{
+    /* font-ის ზომის ფორმირება(გადიდება , შემცირება პიქსელებში) */
+    font-size: 100px;
+    /* ტექსტის გადაადგილება( value შეიძლება იყოს center , rigth , left) */
+    text-align: center;  
+}
+
+h2{
+    font-size : 100 px;
+    background-color: black;
+    color:red
+
+}
+
+button{
+     
+    font-size:80px;
+    background-color: black;
+    color:green;
+
+
+}
+
+h1{
+    font: size 80px;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+body{
+    background-image:url('/Day027/images/cover-pic.jpg');
+    background-size: 1300px;
+}
+
+header,a{
+    color:white;
+}
+
+img{
+    width: 70px;
+    margin-left:57px;
+}
+
+
+.link-1{
+    margin-right:10px;
+  
+}
+
+
+
+h3,h1 {
+    color:white;
+    word-spacing:8px;
+}
+
+button{
+    border-radius:25%;
+    background-color: grey;
+
+}
+
+ul{
+    color:white;
+}
