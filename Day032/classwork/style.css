@@ -1,0 +1,96 @@
+p{
+    color:green;
+
+}
+
+p a{
+    /* ლინკის გასტილვა */
+    color:brown;
+    text-decoration:none;
+}
+
+/* მაუსის მიტანის დროს ფერი ეცვლება ლინკს: 1-მშობელი ელემენტი 2-შვილი 3- ორი წერტილი(:) 4-hover */
+p a:hover{
+    text-decoration: underline;
+    color:aqua;
+}
+
+h4 a:active{
+    text-decoration: wavy;
+    color: brown;
+}
+
+div{
+    height:100px;
+    width:100px;
+    background-color: aliceblue;
+    border-width: 2px;
+    border-style:solid;
+    border-color:brown;
+    border-radius: 10px;
+    /* ერთ ხაზში რომ დავწეროთ border-ის ვიზუალი */
+    border: 2px solid brown
+}
+
+#p-1{
+    /* ატყუპებს ერთმანეთთან */
+    border-collapse:collapse;
+    /* ანცალკევებს */
+    border-collapse: separate;
+}
+
+div{
+    width:200px;
+    height: 200px;
+    background-color: blue;
+
+    border:100px solid black;
+    padding-top:30px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    /* ზემოთ მოცემული კოდის ერთ ხაზში დაწერა */
+    padding:30px 15x 50px 20px;
+
+}
+
+.parent{
+    width:200px;
+    height: 200px;
+    background-color: blue;
+
+    border:10px solid black;
+    /* padding- მუშაობს ბლოკის შიგნით */
+    padding-top: 20px 15px 20px;
+   
+}
+
+.child{
+    width:50px;
+    height: 50px;
+    background-color:brown;
+    border-radius:50%
+}
+
+.parent-2{
+  
+    width:200px;
+    height:200px;
+    background-color:blue;
+
+    border: 10px solid black;
+    
+    /* margin-ები  მუშაობს ბლოკის გარეთ*/
+    margin-top:50px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    margin-left:20px;
+}
+
+.child-2{
+    width:200px;
+    height:200px;
+    border:10px solid black;
+    background-color: brwon;
+
+}

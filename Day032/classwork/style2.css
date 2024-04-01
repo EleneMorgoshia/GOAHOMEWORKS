@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+th,td {
+    border:2px solid green;
+    border-collapse:collapse;
+    
+}
+
+th{
+    border:1px solid blue;
+}
+
+.name-1{
+    border:medium dotted blue;
+}
+/* 
+მეორე row გახდება წითელი . შვილი ელემენტების გასტილვის მეთოდი */
+/* სინტაქსი: tr:nth(მერამდენე რიგიც გინდა რომ შეიცვალოს) { */
+tr:nth-child(2){
+    color:red;
+}
+
+tr:nth-child(odd){
+    background-color: blue;
+}

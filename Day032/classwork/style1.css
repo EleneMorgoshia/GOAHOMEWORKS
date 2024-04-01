@@ -1,0 +1,61 @@
+*{ 
+    /* ფიფქი ყველა ელემენტზე ახდენს ზეგავლენას */
+    /* მაგ, ყველაფრის ფერი იქნება წითელი */
+    color:red;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+
+
+
+.parent{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    border:10px solid black;
+}
+
+table{
+    border-collapse:separate;
+    width:100px;
+}
+
+/* გასტილვა უშუალოდ მონაცემების */
+td,th{
+    border:1px solid black;
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background-color: aliceblue;
+
+}
+
+td{
+    background-color: green;
+    padding:20px;
+}
+
+/* 
+nth-child (ფსევდო სელექტორი)ირჩევს კონკრეტულ რიგს და სტილავს მას ...შეგვიძლია კენტი ან  ლუწი გადავცეთ */
+tr:nth-child(3){
+    background-color:red;
+    padding:40px;
+}
+
+tr:nth-child(2){
+    background-color:green;
+}
+
+tr:nth-child(even){
+    background-color:red;
+}
+
+tr:nth-child(odd){
+    background-color: purple;
+
+}

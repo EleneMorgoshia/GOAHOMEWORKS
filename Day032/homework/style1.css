@@ -1,0 +1,23 @@
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border:2px solid orangered;
+    padding:10px;
+    text-align: center;
+}
+
+th{
+    background-color: aquamarine;
+}
+
+td{
+    background-color: rgb(189, 228, 130);
+}
+
+div{
+    background-color: orangered;
+    width: 600px;
+    height:400px;
+}

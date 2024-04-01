@@ -1,0 +1,25 @@
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border:1px solid black;
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background-color: aqua;
+}
+
+.row-1{
+    background-color: rgb(89, 96, 155);
+}
+
+.row-2{
+    background-color: rgb(40, 209, 40);
+}
+
+.row-3{
+    background-color: yellow;
+}
