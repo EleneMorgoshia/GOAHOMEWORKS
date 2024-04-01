@@ -1,0 +1,97 @@
+
+/*Text justification -  Text justification is often seen in books, magazines and newspapers,
+ as it gives neat edges to the columns of text. */
+p{
+    text-align: justify;
+    color:purple;
+}
+
+/* text-decoration - ტექსტის გაფორმებისთვის ვიყენებთ შემდეგ გასტილვას . ეს გაფორმება იქცევს იუზერის ყურადღებას   */
+/* მაგ, h1-ს გადაესმება ხაზი */
+h1 {
+    text-decoration: line-through;
+    color: #F28D35;
+}
+/* 
+ზემოდან დაამატებს ხაზს  */
+#p-2{
+    text-decoration:overline ;
+    /* ფერის შეცვლა */
+    text-decoration-color: blue;
+}
+
+#p-3{
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: line-through;
+}
+
+h4{
+    text-decoration: underline;
+    text-decoration: line-through;
+
+    /* გასტილვა უშუალოდ დეკორაციის   */
+    text-decoration-style:wavy;
+    text-decoration-color: red;
+
+    /* სიფართოვე კონკრეტული დეკორაციის */
+    text-decoration-thickness: 5px;
+
+}
+
+h5{
+    /* ყველაფერი ერთად (ერთ სივრცეში) */
+    text-decoration: underline blueviolet wavy 5px ;
+}
+
+#p-4{
+   /* ტექსტის ფორმატირება , ასოებოს გაზრდა , დაპატარავება , პირველი ასოს გაზრდა */
+    text-transform: capitalize; 
+    /* text-transform:lowercase; */
+    text-transform: uppercase;
+}
+
+#p-5{
+    /* გაჩრდილვა */
+    /* მესამე valueს თუ მიანიჭე ეგ იქნება გაბლარვის მიმანიშნებელი(რამდენად გაბლარული იყოს) */
+    /* პირველი value არის ჰორიზონტალური , მეორე value არის ვრეტიკალური */
+    /* თუ მინუს დავუწერთ მაცხნივ იქნება ან ზემოთ(გააჩნია ჰორიზონტალში წერ თუ ვერტიკალში) ; */
+    color:green;
+    text-shadow: 3px 3px 2px blue;
+}
+
+#p-6{
+    /* ვერტიკალში მინუსის დროს მაღლა ადის  */
+    text-shadow: 2px -5px ;
+    text-shadow: 0px 0px 3px red;
+}
+
+/*  
+rules:
+⭐ text-align controls the horizontal alignment of text
+
+⭐ text-decoration adds decorative effects to text
+
+⭐ text-transform alters the capitalization of text
+
+⭐ text-shadow applies shadow effects behind the text */
+
+#p-7{
+    /* ინდენტაციის გაკეთება : ამ შემთხვევაში 50 პიქსელით გაიწევა ეს ტექსტი მარჯვნივ */
+    text-indent: 50px;
+
+    /* ასოებს შორის დაშორება. თუ წინ მინუს დავუწერთ , ერთმანეთს მიეტყუპება შესაბამისი პიქსელით*/
+    letter-spacing: 5px;
+
+}
+
+#p-8{
+    /* ხაზებს შორის დაშორება */
+    line-height:1.8;
+
+    /* ასოებს შორის დაშორება(სფეისინგის დარეგულირება) */
+    word-spacing: 10px;
+
+    /* ცარიელ ადგილების მოდიფიკაცია */
+    white-space: nowrap;
+}   

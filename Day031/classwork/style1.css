@@ -1,0 +1,23 @@
+h1{
+    font-family: sans-serif;
+    /* sans-serifის მაგალითები: Arial ,Verdana */
+}
+
+#p-1{
+    /* serif-ის მაგალითები: */
+    /* serifi-ის მაგალითები: Georgia , Times New Roman , Garamond  */
+    font-family: serif;
+}
+
+#p-2{
+    /* ეს ფონთი ხელით დაწერილს გავს */
+    font-family: cursive;
+}
+
+#p-3{
+    font-family:'Courier New', Courier, monospace ;
+
+    /* გაბოლდების კონტროლი:*/
+    font-weight:800;
+
+}

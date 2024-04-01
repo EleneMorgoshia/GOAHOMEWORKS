@@ -1,0 +1,26 @@
+/* ლინკების გასტილვა */
+
+
+a:link {
+    /* ზოგადად ლინკის ფერი */
+    color:red;
+    text-decoration: none;
+}
+
+a:visited { 
+    /* რომელ ლინკზეც უკვე გადასუხლი ხარ მაგას გაამწვანებს */
+    color:green;
+    text-decoration:none;    
+}
+
+a:hover {
+    /* მაუსს რო მიიტან ლინკზე ვარდისფრად აჩვენებს */
+    color:hotpink;
+    text-decoration:underline;
+}
+
+a:active {
+    /* მაუსს რომ დააჭერ ლინკს გაალურჯებს */
+    color:blue;
+    text-decoration:underline;
+}
