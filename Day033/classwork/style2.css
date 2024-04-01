@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.square{
+    width:300px;
+    height:300px;
+    border:5px solid black;
+
+    /* ფერებში მეოთხე პარამეტრი არის გამჭვირვალობის ( რმადენად გამოკვეთილი მოც ფერი) */
+    background-color:rgba(100, 155, 210, 0.683) ;
+
+    /* რამდენად მუქად ან ფერმკთალად ჩანს  */
+    opacity:80%;
+
+    /* საზღვრების შეცვლა */
+    border-radius: 50%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+body{
+    background-color: green;
+}
