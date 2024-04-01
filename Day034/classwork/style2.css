@@ -1,0 +1,21 @@
+img{
+    /* ფოტოს ფორმის ცვლილება */
+    transform: rotate(45deg);
+   
+    /* translateX(სასურველი რიცხვი) - გადაადგილება x ღერძზე */
+    transform: translateX(500px);
+
+    /* translateY(სასურველი რიცხვი) - გადაადგილდება y -ღერძზე */
+    transform: translateY(800px);
+
+    /* translateების გაერთიანება: */
+    transform: translate(200px,800px);
+
+    z-index:-1;
+}
+
+p{
+    /* პირველ ხაზს მომავალში გავივლით */
+    position:relative; 
+    z-index:10;
+}

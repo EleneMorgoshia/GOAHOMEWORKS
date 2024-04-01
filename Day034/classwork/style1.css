@@ -1,0 +1,15 @@
+ul{
+    /* inside გაიყოლებს ბურთულებსაც და ცენტრში დასკუპდება მონაცემთან ერთად  */
+    list-style-position: inside;
+
+    list-style-type:lower-alpha;
+    list-style-image:url('/Day020/images/goal.webp');
+    width:50px;
+
+}
+
+
+
+div{
+    text-align: center;
+}
