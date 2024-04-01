@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Petemoss&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Petemoss&family=Rancho&family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+body{
+    background-image: url('/Day030/images/pic-1.jpg');
+    background-size: 1350px;
+    font-family: Wix Madefor Display;
+}
+
+h1{
+    font-family: Wix Madefor Display;
+}
+
+.h2-1{
+    margin-left:50px;
+    font-family:Wix Madefor Display;
+    font-size:xx-large;
+
+}
+
+.button-1{
+    margin-left:200px;
+    padding: 10px 20px;
+}
+
+.h3-1{
+    margin-left:20px;
+    font-family:Wix Madefor Display;
+}
+
+.h2-2{
+    margin-left:50px;
+}
+
+.div-1{
+    width:1150px;
+    height:300px;
+    border:5px solid black;
+    margin-left:30px;
+}
+
+.img-2{
+   transform:rotate(5deg)
+}
+
+.h4-1{
+    font-family:Niconne;
+    font-size:xx-large;
+    margin-left:140px;
+
+}
