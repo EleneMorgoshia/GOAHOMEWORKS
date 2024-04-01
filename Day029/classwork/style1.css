@@ -1,0 +1,19 @@
+p{
+    color:blue;
+}
+
+i{
+    color:red;
+}
+
+h1{
+    color:purple;
+    text-align:center;
+}
+u{
+    color:orange;
+}
+
+.div-1 h1{
+    color:aqua;
+}
