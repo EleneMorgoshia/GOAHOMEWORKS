@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--სახლში გაკეთებული-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Profile card component</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <!--გვჭირდება რაღაც კონტეინერი,სადაც მოვათავსებთ მთავარ კონტენტს-->
+  <section class="main-section">
+    <img class="background-pic" src="images/bg-pattern-card.svg" alt="">
+    <section class="opening">
+      <img class="profile-pic" src="images/image-victor.jpg" alt="profile-pic">
+
+      <!--დივს ვქმნი იმიტომ, რომ flexის საშალებით h1 და p ჰორიზონტალურად განვალაგო-->
+      <div class="for-26">
+        <h1>Victor Crest</h1>
+        <p>26</p>
+      </div>
+      
+      <p class="lonely">London</p>
+    </section>
+ 
+    <section class="closing">
+      <!--თითოეულს ვუწერ div-ს რათა შევძლო flexის გამოყენებით პარაგრაფების ქვემოთ განლაგება-->
+      <div class="for-p">
+        <h2>80K</h2>
+        <p class="under-p">Followers</p>
+      </div>
+
+      <div class="for-p">
+        <h2>803K</h2>
+        <p class="under-p">Likes</p>
+      </div>
+
+      <div class="for-p">
+        <h2>1.4K</h2>
+        <p class="under-p">Photos</p>
+      </div>
+
+    </section>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

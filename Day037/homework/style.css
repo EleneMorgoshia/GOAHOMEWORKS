@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body-ს გასტილვა */
+body{
+    font-family:'Inter',sans-serif;
+    height:100vh;
+    background-color:hsl(0, 0%, 8%);
+    /* იმისთვის, რომ მთავარი section და "Challenge by Frontend Mentor. Coded by Your Name Here." ერთმანეთის ქვემოთ იყოს body-ს ვუწერ flex-ს */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+/* მთავარი section-ის გასტილვა */
+.main-section{
+    /* იმისთვის,რომ section-ში არსებული ელემენტები ერთმანეთის ქვემოთ განვალაგოთ , section-ს ვუწერ flex-ს */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:10px;
+    background-color:hsl(0, 0%, 12%);
+
+    /* paddingები და marginები დამავიწყდა; */
+    margin:20px 50px;
+    padding:20px;
+}
+
+/* პირველი section-ის გასტილვა , რომელიც მოიცავს ფოტოს,h1-ს და პარაგრაფს   */
+.opening{
+    /* გავუწერ flex-ს რათა ელემენტების ერთმანეთის ქვემოთ მოვაქციო */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+/* ფოტოს გასტილვა */
+img{
+    width:90px;
+    border-radius:50%;
+    margin:10px;
+    padding:10px;
+}
+
+/* h1-ის გასტილვა  */
+.opening h1{
+    color:hsl(0, 0%, 100%);
+    font-size:20px;
+}
+
+/* p-ის გასტილვა */
+.opening p{
+    color:hsl(75, 94%, 57%);
+    font-size:14px;
+    margin:5px;
+    padding:5px;
+    font-weight:20px;
+}
+
+/* ცალკეული პარაგრაფის გასტილვა */
+.work{
+    margin:5px;
+    padding:5px;
+    opacity:80%;
+    color:hsl(0, 0%, 100%);
+}
+
+
+/* ღილაკების გასტილვა */
+.buttons{
+    width:100%;
+    /* იმისთვის,რომ ერთმანეთის ქვემოთ იყვნენ ღილაკები flex უნდა გავუწეროთ */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+/* ღილაკების ზომის და ფორმის გასტილვა */
+button{
+    width:95%;
+    margin:10px;
+    padding:10px;
+    font-size:16px;
+    color:white;
+    background-color:hsl(0, 0%, 20%);
+    border-radius:10px;
+    font-weight:600;
+    margin-bottom:20px;
+    border:none;
+}
+
+button:hover{
+    background-color:hsl(75, 94%, 57%);
+}

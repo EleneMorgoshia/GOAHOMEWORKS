@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Petemoss&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Petemoss&family=Rancho&family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    margin-left:5px;
+    margin-top:20px;
+}
+body{ 
+    background-image: url('/Day036/images/back.avif');
+    /* background-size: 1230px; */
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+nav a{
+    text-decoration: none;
+    padding:20px;
+    margin-top:20px;
+    color:black;
+    margin-right: 30px;
+    font-size:larger;
+}
+
+nav{
+    display:flex;
+    /* justify-content: space-between; ეს რატომ არ შვრება?? */
+}
+
+h1, h2 {
+    margin-top:20px;
+    margin-left:40px;
+    font-family:Wix Madefor Display;
+}
+
+
+
+nav a button{
+    border-radius:25%;
+    color:white;
+    background-color: blue;
+}
+
+nav a:hover{
+    text-shadow: 5px 0px 80px blue;
+    font-weight:lighter;
+}

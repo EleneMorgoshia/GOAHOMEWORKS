@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    
+    font-family:'Times New Roman', Times, serif;
+    min-height:100vh;
+
+}
+
+header{
+    /* იმისთვის , რომ ჰედერში არსებული ელემენტები სასურველ ადგილას განვათავსოთ,
+    საჭიროა მშოელ ელემენტს გავუწეროთ flex.(header ელემენტი არის ლინკების და პარაგრაფის მშობელი ელემენტი) */
+    display:flex;
+
+    /* აითემებს შორის რომ ადგილი იყოს ვიყენებთ justify-content:space-between */
+    justify-content:space-between;
+    
+    /* ზემოდან და მარჯვნიდან დაშორება ჰედერის  */
+    margin:20px 10px;
+    
+
+    /* აითემებს შორის დაშორება */
+    padding:30px;
+}
+
+header p {
+    /* ფონტს მივეცით სასურველი ზომა */
+    font-size:large;
+}
+
+nav{
+    /* ნავიგაციის სისქესს გავუწერეთ 30%   */
+    width:30%;
+
+    /* რადგან გვინდოდა ლინკებს შორის დაშორება , ლინკების მშობლე ელემენტს გავუწერეთ flex */
+    display:flex;
+
+    /* თითოეულ ლინკს შორის იქნება სფეისი */
+    justify-content:space-around;
+
+    /* თითოეული აითემი განთავსდება ცენტრში */
+    align-items:center;
+
+
+}
+
+nav a {
+    /* ლინკებს მივეცითსასურველი სტილი */
+    text-decoration:none;
+    color:#000;
+
+    /* ტექსტის სიმუქეს აკონტროლებს opacity: */
+    opacity: 60%;
+
+}
+
+.btn{
+    /* აქ პადინგი სიტყვასა და ბორდერს შორის არის ხომ? */
+    padding:8px 20px;
+
+    /* button-ის გასტილვა(ფერი, უკანაფონის ფერი, ბორდერადიუსი) */
+    color:#fff;
+    background-color: rgb(144, 0, 255);
+    border-radius:30px;
+}
+
+
+
+/* იმისთვის, რომ ფოტო და ნაწერი გვერდი-გვერდ განვათავსო , უნდა მივწვდე მათ მშობელ ელემენტს , main-section-ს*/
+.main-section{
+    display:flex;
+  
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+/* იმისთვის , რომ ნაწერის ნაწილი გავსტილოთ , მათ მშობლე ელემენტს , intro-div-ს უნდა მივწვდეთ */
+.intro-div{
+    display:flex;
+    /* იმისთვის რომ ვერტიკალურად იყოს განლაგებული ნაწერები , ვიყენებთ flex-direction:column -ს */
+    flex-direction:column;
+    /* width:50%; */
+   
+}
+
+/* გავსტილოთ h1 ტეგში მოთავსებული ტექსტი: website design */
+.intro-div h1{
+    font-size:50px;
+    /* დაშორება h1სა და pს შორის იქნება 10 px? */
+    padding:10px;
+    margin:10px;
+    color:rgb(5,5,63);
+}
+
+/* გავსტილოთ p ტეგში მოთასებული ტექსტი: */
+.intro-div p{
+
+    width:80%;
+
+    /* იმისთვის რომ h1 და p ერთმანეთს გაუტოლდეს */
+    padding:10px;
+    margin:10px;
+
+    /* გავაღიავეთ ტექსტი */
+    opacity:90%;
+
+    /* ხაზებს შორის დაშორებისთვის ვიყენებთ line-height-ს  */
+    line-height:25px;
+}
+
+/* გავსტილოთ button */
+.intro-div button{
+    width:150px;
+    padding:10px;
+    margin:8px;
+    border:1px solid purple;
+    border-radius:35px ;
+    color:#fff;
+    background-color: rgb(99, 42, 149);
+    font-size:15px;
+    
+}
+
+img{
+ 
+    width:200px;
+    height:450px;
+    border-radius:35px;
+}

@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* იმისთვის, რომ მეინ დივი ჩამოვიდეს ქვემოთ, ვანიჭებ სიმაღლეს ბოდი-ს  */
+    height:150vh;
+}
+
+.main-div{
+    display: flex;
+
+    justify-content: space-around;
+    /* center , flex-start , flex-end , space-between , space around , space -evenly */
+   
+    align-items: center;
+    border:5px solid red;
+    padding:10px;
+    width:1000px;
+    height:800px;
+    flex-wrap:wrap; 
+    gap:100px;
+   
+}
+
+.child-div{
+    width:100%;
+    height:200px;
+    background-color: white;
+    margin:10px;
+    border: 2px solid red;
+}

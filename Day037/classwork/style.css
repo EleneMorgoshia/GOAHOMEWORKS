@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* background ფოტოს გასტილვა */
+    background:url('/Day037/images/back-pic-1.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+
+} 
+

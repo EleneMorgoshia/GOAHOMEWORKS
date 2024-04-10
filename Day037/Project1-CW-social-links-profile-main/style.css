@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body-ს გასტილვა */
+body{
+    font-family:'Inter',sans-serif;
+    background-color: hsl(0, 0%, 8%);
+
+    /* makes an element as tall as the screen you're looking at */
+    height:100vh; 
+
+    /* იმისთვის, რომ ყველაფერი ცენტრში გადავიტანოთ,გვჭირდება flex: ; */
+    display:flex;
+    justify-content:center;
+
+    /* flex-direction იმისთვის , რომ "Challenge by Frontend Mentor. Coded by Your Name Here."  ჩვენი section-ის ქვემოთ იყოს */
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+}
+
+/* მთავარი section-ის გასტილვა */
+section{
+    background-color:hsl(0, 0%, 12%);
+
+    /* იმისთვის რომ თითოეული ელემენტი იყოს ცენტრში, უნდა დავწეროთ flex */
+    display:flex;
+    /* ამ შემთხვევაში უშუალოდ ელემენტები გალაგდება ერთმანეთის ქვემოთ */
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    /* თვითო section-ში მოცემული ელემენტებსა და section -ს(ბორდერებს) შორის დაშორება */
+    padding:20px 50px; /*20px მიემართება ზემოთ და ქვემოთ დასოებას . 50 px  მიერმართება მარცხნივ და მარჯვივ დაშორებას */
+
+    /* თვითონ backზე რაც არის, მთავარი section-ის ფორმის გასტილვა */
+    border-radius:10px;
+}
+
+
+/* პირველი(profile კლასის მქონე) დივის  გასტილვა */
+.profile{
+/* იმისთვის, რომ უშუალოდ ფოტოს, h1-ის და პარაგრაფის ერთმანეთის ქვემოთ განლაგება შევძლო,მათ მშობელს (ანუ profile კლასის მქონე დივს) ვუწერ flex-ს */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+/* პირველ დივში არსებული ფოტოს გასტილვა */
+.profile img{
+    width:75px; /* ზომაში დავაპატარავეთ ფოტო */
+    border-radius:50%;
+    margin:10px; /*ფოტო ოთხივე მხრიდან დაშორებული იქნება 10px-ით(ზემოთ,მარჯვნივ,ზევმოთ , მარცხნივ) */
+}
+
+/* პირველ დივში არსებული h1-ის გასტილვა */
+.profile h1{
+    color:#fff;
+    margin:5px; /* h1 ყველა მხირდან დაშორებული იქნება 5px-ით*/
+    padding:5px; /*h1, p სა და ფოტოს შორის დაშორება ოთხივე მხრიდან იქნება 5px*/
+}
+
+/* პირველ დივში არსებული პარაგრაფის გასტილვა */
+.profile p{
+    color:hsl(75, 94%, 57%);
+    font-weight:600;  /* ფოტოს მიხედვით პარაგრაფი უფრო მუქად არის ამიტომ ვუწერთ ამას */
+    font-size:13px;
+}
+
+
+
+/* ცალკეული პარაგრაფის(work კლასის მქონე) გასილვა */
+.work{
+    margin:10px; /* მანძილი პარაგრაფსა და კონტეინტერს შრის */
+    padding:10px; /* მანძილი პარაგრაფსა და მის კონტენტს შორის...(აქ ვერ ვხვდები ეს რა საჭიროა...)*/
+    color:#fff;
+    font-size:13px;
+    opacity:90%;
+    margin-top:30px;
+}
+
+/* ღილაკების განლაგება და მათი გასტილვა */
+.buttons{
+    /* უნდა გავუწეროთ flex იმისთვის რომ ღილაკები ერთმანეთის ქვემოთ იყოს */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    /* იმისთის, რომ ღილაკებს სასურველი ფორმა მივცეთ, აუცილებალდ აქ უნდა გავწეროთ width-ის ზომა */
+    width:100%;
+
+    margin-bottom: 10px;
+}
+
+/* ღილაკების ზომის და ფორმის გაწერა */
+button{
+    width:100%;/*იმისთვის, რომ ამან იმუშაოს,მის მშობელ ელემენტს (.buttons) უნდა გავუწერეთოთ  width. */
+    margin:10px; /* ეს იქნება მანძილი უშუალოდ ღილაკებს შორის */
+    padding:15px; /*ეს არის მანძილი ღილაკში არსებულ ტექსტსა და ღილაკის ბორდერებს შორის! */
+    border-radius:10px;
+    border:none;
+    background-color:hsl(0, 0%, 20%);
+    color:#fff;
+    font-size:15px;
+    font-weight:600;
+    letter-spacing: 1px; /*მანძილი ასოებს შორის */
+
+    /* ეს ორი არ ვიცით ჯერ */
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+/* ღილაკზე მაუსის მიტანისას ფერების შეცვლა */
+button:hover{
+    background-color:hsl(75, 94%, 57%);
+    color:black;
+}

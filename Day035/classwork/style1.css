@@ -1,0 +1,41 @@
+body{
+    /* თუ გვინდა, რომ main-div გადავიტანოთ ცენრში, მის მშობელ ელემენტ ( ანუ body-ს) უნდა გავუწეროთ display-flex */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    /* უნდა ვაკონტროლოთ body-ს სიმაღლე, რომ გავცენტროთ main-div */
+    height:100vh; 
+}
+
+
+
+
+
+.main-div{
+    /* მშობელის ელემენტის შვილი ელემენტები განთავსდება ჰორიზონტალურად: */
+    /* flex-ს ყოველტვის ვიყენებთ მშობელ ელემენტში! */
+    display:flex;
+
+    /* შვილი ელემენტების ვერტიკალურად განლაგება: */
+    display:column;
+
+    /* კონტენტის განლაგება სხვადასხვა სივრცეში: ვიყენებთ justify-content */
+    /* mind-divების ადგიმლმდებაროების გასაკონტროლებლად, jistify-contentს ვუწერთ სხვადასხვა მნიშვნელობებს */
+    justify-content: space-evenly ;
+
+/* items გადაინაცვლებს ცენტრში */
+    align-items: center;
+    height: 300px;
+    border:2px solid black;
+
+    /* gap ს ვიყენებთ თ უგვინდა ელემენტებს შორის დაშორება */
+    gap:200px;
+}
+
+.div{
+    width:100px;
+    height:100px;
+    background-color: red;
+    margin:10px;
+}

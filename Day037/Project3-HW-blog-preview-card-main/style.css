@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* body-ს გასტილვა */
+body{
+    font-family:'Figtree';
+    height:100vh;
+    font-size:18px;
+    background-color: hsl(47, 88%, 63%);
+
+    /* იმისთვის, რომ "Challenge by Frontend Mentor. Coded by Your Name Here." და კონტეინერი ვერტიკალურად განვალაგოთ , უნდა გავუწეროთ flex. */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+/* მავარი კონტეინერის გასტტილვა */
+
+.main-section{
+    /* margin-top:25px; */
+    /* უნდა გავუწეროთ flex იმისთვის რომ ელემენტები ვერტიკალურად განვალაგოთ */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:10px;
+    padding:10px 20px;
+    margin:10px;
+    border:1px solid black;
+    
+    box-shadow: 20px 20px 0px black;
+    background-color: #fff;
+}
+
+/* პირველი, გამხსნელი დივის გასტილვა, რომელიც მოიცავს ფოტოს, h4-ს,h1-ს და პარაგრაფებს */
+.opening{
+    /* უნდა გავუწეროთ flex იმისთვის, რომ ელემენტები ვერტიკალურად განვალაგოთ */
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center;
+    align-items:center; */
+
+    padding:10px;
+    margin:10px;
+
+}
+
+/* ფოტოს გასტილვა */
+.cover-img{
+    border-radius:10px;
+ 
+
+}
+
+/* h4-ის გასტილვა */
+h4{
+    margin-top:15px;
+    font-weight: 800;
+    border-radius:5px;
+    border:1px solid hsl(47, 88%, 63%);
+    background-color: hsl(47, 88%, 63%);
+    width:100px;
+    height:30px;
+    align-items:center; /*ეს რატომ არ მუშაობს? */
+    padding-top:4px;
+    padding-left:15px
+    
+}
+
+/* პარაგრაფის გასტილვა */
+.opn-p{
+    margin-top:10px;
+    font-size:16px;
+
+}
+
+/* h1-ის გასტილვა */
+h1{
+    margin-top:15px;
+    
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+h1:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+/* პარაგრაფის გასტილვა */
+.opn-p-2{
+    margin-top:20px;
+    font-size:16px;
+    opacity:80%;
+}
+
+
+/* მეორე დივის გასტილვა,რომელიც მოიცავს ფოტოს და პარაგრაფს */
+/* ....ეს ფოტო და პარაგრაფი ცენტრიდან მარცხენა კუთხეში ვერ გადამყავს...*/
+.closing{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    /* justify-content: center; */
+    gap:15px;
+}
+
+/* ფოტოს გასტილვა */
+.cls-img{
+    border-radius:50%;
+    width:50px;
+}
+
+/* პარაგრაფის გასტილვა */
+.cls-p{
+    font-size:16px;
+    font-weight: 800;
+}

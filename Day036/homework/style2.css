@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:  hsl(30, 54%, 90%);
+    font-family:Outfit;
+}
+
+
+
+
+/* styling the main div */
+.main-div{
+   
+    margin-top:80px;
+    margin-left:250px;
+    border:1px solid #fff;
+    border-radius:35px;
+    width:830px;
+    height: fit-content;
+    background-color:white;
+   
+}
+
+/* styling the opening section ( pic , h1, p elemnts) */
+.opn-sect{
+    margin-top:25px;
+    padding-top:15px;
+    padding-left:20px;
+    display:flex;
+    flex-direction:column;
+
+}
+
+img{
+
+ border-radius:35px;
+} 
+
+.opn-sect h1{
+    margin-top:20px;
+    font-family:Young Serif;
+
+}
+
+.opn-sect p{
+    font-size:16px;
+    padding-top:15px;
+    line-height:20px;
+}
+
+/* styling the "preperation time" part */
+
+.preparation-time{
+    background-color:rgb(255, 238, 241);
+    width:730px;
+    margin:30px 30px 0px 30px;
+    height:150px;
+   
+}
+
+.first-h3{
+    padding-top:15px;
+    padding-left:20px;
+    color: hsl(332, 51%, 32%);
+    font-family:Young Serif;
+
+}
+
+.preparation-time ul{
+    padding-left:60px;
+    padding-top:15px;
+    /* writing flex in order to make spaces between unordered list's elements  */
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+
+}
+
+.preparation-time ul li{
+    opacity:80px;
+}
+
+/* styling the "Ingredients" part */
+
+.first-h2{
+    margin-top:35px;
+    margin-left:20px;
+    color:  hsl(14, 45%, 36%);
+    font-family:Young Serif;
+}
+
+.ingredients-sect{
+    /* writing flex in order to make 'ul' part  below the 'Ingredients'  */
+    display:flex;
+    flex-direction:column; 
+    
+
+}
+
+.ingredients-sect ul{
+    margin-left:50px;
+    /* writing flex in order to make spaces between unordered list's elements  */
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+   
+}
+
+.ingredients-sect ul li{
+    margin-top:20px;
+    opacity:80px;
+}
+
+/* 
+styling the 'instructions' part  */
+
+.instructions{
+    display:flex;
+    flex-direction:column;
+}
+
+.inst-h2{
+    font-family:Young Serif;
+    margin-top:35px;
+    margin-left:20px; 
+    color:  hsl(14, 45%, 36%);
+}
+
+.ordered-list{
+    margin-top:10px;
+    margin-left:50px;
+    /* writing flex in order to make spaces bewteen the list elements */
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.ordered-list li{
+    opacity:80px;
+    padding:3px;
+}
+
+/* styling the nutrition part */
+
+.final-sect{
+    display:flex;
+    flex-direction:column;
+}
+
+.fnl-h2{
+    font-family:Young Serif;
+    margin-top:35px;
+    margin-left:20px; 
+    color:  hsl(14, 45%, 36%);
+}
+.fnl-p{
+    margin-top:10px;
+    margin-left:20px;
+}
+.table{
+    margin-top:5px;
+    margin-left:10px;
+    border-collapse: collapse;
+    width:100%;
+}
+
+td{
+    padding:8px;
+    text-align:justify;
+    border-bottom:1px solid #ddd;
+}
+
+.color{
+    color: hsl(14, 45%, 36%);
+}
+
+/* ძნ აბურუდული და ჩახლართული კოდია,არ მომწონს */

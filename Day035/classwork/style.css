@@ -1,0 +1,59 @@
+input{
+    border:1px solid  #FF9E03;
+
+}
+
+label{
+    /* ფონტის სისქეს ვაკონტროლებთ font-weigth-ით */
+    font-weight:bold;
+    color:#c803ff;
+}
+
+#lastname{
+    /* border  რომ არ ქონდეს, დავუწერთ none-ს */
+    border:none;
+
+    /* ჩრდილები */
+    box-shadow: 0px 0px 2px orange;
+
+    /* რომ არ გაშავდეს border დაკლიკებისას */
+    outline: none;
+}
+
+/* 
+კონკრეტული input-ს რომ მივწვდეთ ვწერთ:input [ტიპის სახელი]{....} */
+input[type="email"]{
+    background-color: blue;
+}
+
+
+/* ორ სასურველ input-ს რომ მივწვდეთ, მძიმით უნდა გამოვყოთ ისინი: */
+input[type="number"] , input[type="date"]{
+    border:1px solid red;
+    background-color:black;
+    font-weight: bold;
+    color:rgb(234, 246, 61);
+
+    /* input-ის ბორდერის(გარე სივრცის) ფორმის შეცვლა.(კუთხეების რადიუსის შეცვლა) */
+    border-radius:20px;
+}
+
+.box{
+    background-color: purple;
+    margin:50px;  
+    width:200px;
+    height:200px;
+ 
+    /* კუთხეების რადისების შეცვლა  */
+    border-radius:100px 40px 70px 10px;
+}
+
+
+/* დაკლიკვის დროს რომ ფორმა შევცვალოთ:  */
+input[type="submit"]:active{
+    background-color: #0C1527;
+    color: #FF9E03;
+    border:1px solid #FF9E03;
+    border-radius:10px;
+    color:rgb(225,0,0)
+}

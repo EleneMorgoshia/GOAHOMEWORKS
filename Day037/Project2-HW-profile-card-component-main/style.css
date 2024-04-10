@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body-ს გასტილვა */
+body{
+    font-family:Kumbh Sans;
+    height:100vh;
+    font-size:18px;
+    background-position: no-repeat;
+
+    /* უნდა გავუწეროთ flex , რათა "Challenge by Frontend Mentor. Coded by Your Name Here." კონტეინტერის ქვემოთ იყოს */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    /***** ვიდეოს ნახვის შემდეგ ჩამატებული ფროფერთიები ****/
+    background-image: url('images/bg-pattern-bottom.svg') , url('images/bg-pattern-top.svg');
+    background-color:hsl(185, 75%, 39%);
+}
+
+
+/* ვიდეოს ნახვის შემდეგ ჩამატებული ფროფერთიები */
+.background-pic{
+    width:500px;
+    border-radius:10px;
+}
+
+/* მთავარი section-ის გასტილვა */
+.main-section{
+    /* უნდა გავუწეროთ flex, რათა კონტეინერში მოთავსებული ელემენტების ერთმანეთის ქვემოთ იყვნენ */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:10px;
+    /* padding:20px 50px; */  /*ეს ძაან დიდი დაშორებები იყოს და აუშნოებდა ფორმატს */
+    
+    /***** ვიდეოს ნახვის შემდეგ ჩამატებული ფროფერთიები ****/
+   border:1px solid black;
+   background-color:#fff;
+   
+  
+
+
+}
+
+/* opening section-ის გასტილვა , რომელიც მოიცავს დივს(დივი მოიცავსფოტოს,h1-ს  და პარაგრაფს) და  პარაგრაფს */
+.opening{
+    /* იმისთვის,რომ ელემენტები ერთმანეთის ქვემოთ იყოს უნდა გავუწეროთ  flex  */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    /***** ვიდეოს ნახვის შემდეგ ჩამატებული ფროფერთიები ****/
+    /* იმისთვის, რომ ფოტო და ბექგრაუნდის ფოტო ისე იყოს,როგორც ფოტოზეა , margin-top-ს ბუწერთ -70px */
+    margin-top:-12%;
+    
+    
+}
+
+/* ფოტოს გასტილვა */
+.profile-pic{
+    width:100px;
+    border-radius:50%;
+    border:6px solid white;
+}
+
+/* დივის გასტილვა, რომელიც მოიცავს h1 სა და პარაგრაფს */
+.for-26{
+    /* უნდა გავუწეროთ flex , რათა h1 და p ჰორიზონტალურად განვალაგოთ */
+    display:flex;
+    flex-direction:row; /*rowს საშუალებით განლაგდებიან ჰორიზონტალურად*/
+    justify-content: center;
+    align-items:center;
+
+    gap:10px; /*გავზარდე gap რათა დაშორებულიყვნენ პარაგრაფი და h1 */
+
+    padding:10px;
+    margin:20px;
+}
+
+/* პარაგრაფის გასტილვა */
+.lonely{
+    opacity:80%;
+    font-size:16px;
+}
+
+
+/* დამხურავი section-ის გასტილვა, რომელიც მოიცავს h2-ებსა და პარაგრაფებს */
+.closing{
+    /* უნდა გავუწეროთ flex, რათა ელემენტები ჰორიზონტალურად განლაგდეს */
+    display:flex;
+    flex-direction:row;
+
+    gap:50px; /*ეს იმისთვის , რომ ელემენტები ერთმანეთისგან დავაშოროთ */ 
+    
+   
+    /* ხაზი დამხურავი section-ის ზემოთ */
+    border-top:1px solid black;
+
+    margin:50px;
+    padding:10px;
+}
+
+/* დამხურავ sectionში არსებული div-ის გასტილვა */
+.for-p{
+    /* უნდა გავუწეროთ flex ,  რათა შევძლოთ პარაგრაფის  h1-ის ქვემოთ მოთავსება */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    margin-top:20px; /*იმისთის რომ დივსა და ბორდერს შორის სფეისი იყოს */
+
+}
+
+/* პარაგრაფების გასტილვა */
+.under-p{
+    opacity:80%;
+    margin:10px;
+}
+

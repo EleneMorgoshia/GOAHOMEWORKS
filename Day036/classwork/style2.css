@@ -1,0 +1,91 @@
+*{
+    /* ყველა გასტილვას ვიწყებთ ამით */
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+    min-height:100vh;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    padding:50px;
+}
+
+header p {
+    font-size:25px;
+}
+
+nav{
+    width:30%; 
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-decoration:none;
+    font-size: 20px;
+    color: black;
+    opacity: 60%;
+ 
+   
+}
+
+.btn{
+    padding:10px 20px;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+
+}
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-div{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    padding:10px; 
+   
+}
+
+.intro-div h1{
+    font-size:70px;
+    margin-left:10px;
+    padding:10px;
+    color:rgb(13, 13, 131);
+}
+
+.intro-div p{
+    width:80%;
+    margin:10px;
+    padding:10px;
+    opacity:90% ;
+    line-height: 25px;
+}
+
+.intro-div button{
+    width:180px;
+    margin:20px;
+    padding:15px 20px;
+    border: none;
+    background-color:rgb(17, 17, 149) ;
+    border-radius: 25px;
+    color:white;
+    font-size:20px;
+}

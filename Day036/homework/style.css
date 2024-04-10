@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* 
+იმისთვის,რომ ლოგო და ლინკები ერთმანეთის ქვემოთ განვალაგო, მივწვდები მათ მშობელ ელემენტს header-ს */
+header{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo{
+    /* მივეცი სასურველი ვიზუალი ბურგერის ლოგოს */
+
+    width:130px;
+    height:130px;
+    border-radius:50%;
+}
+
+
+/* იმისთვის რომ უშუალოდ ლინკების დაშორება შევძლო , უნდა მივწვდე მათ მშობელ ელემენტს nav-ს  */
+
+nav{
+    /* როცა არ შროდება ხოლმე ლინკეის ერთმანეთს გაზარდე width თვითონ nav-ის */
+    margin-top:10px;
+    /* width:100px; */
+    display:flex;
+    justify-content:center;
+    /* რადგან ღილაკი უფრო ქვემოთ არის , ვიდრე სხვა აითემები , nav გავუწერთ   align-itmes:center; */
+   align-items:center;
+   /* იმისთვის რომ ლინკები ერთმანეთს დაშორდნენ უნდა გამოვიყენოთ gap */
+   gap:50px;
+   /* იმისთვის რომ ლინკებს ზემოთ და ქვემოთ ხაზები გამოუჩნდეთ , გამოვიყენებთ border-topს და border-bottom-ს*/
+   border-top:1px solid #fff;
+   border-bottom:1px solid #fff;
+   /* იმისთის, რომ ბორდერებსა და ლინკებს შორის სფეისი იყოს, გავუწერთ paddingს  */
+    padding:8px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#fff;
+    font-size:15px;
+
+}
+
+/* იმისთვის,რომ ბოლო ორი ლინკს მივცეთ button-ს ვიზუალი: */
+.first-btn , .second-btn{
+    font-size:17px;
+    background-color:red;
+    color:#fff;
+    padding:10px  25px 25px;
+     /* ფორმის ზომების სასურველ ფორმამდე მიყვანა */
+    width:120px;
+    height:35px; 
+    text-align:center;
+}
+
+/* main-ის ნაწილის გასტილვა: */
+/* იმისთვის, რომ შევძლო ნაწერის და ფოტოს ერთმანეთის გვერდი-გვერდ განლაგება , უნდა მივწვდე მშობელ ელემეტნს , section-ს  */
+.first-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* ტექსტის დიზიანი: */
+.first-div{
+    /* ტექსტები იქნება ერთმანეთის ქვემოთ */
+    display:flex;
+    flex-direction:column;
+    padding:50px;
+    margin:10px;
+
+}
+
+
+/* პარაგრაფების გასტილვა */
+.first-div p{
+    font-size:20px;
+    margin:10px;
+    padding:5px;
+    line-height:25px;
+}
+
+/* h1-ს გასტილვა */
+.first-div h1{
+   font-size:40px;
+   margin:10px;
+   padding:5px;
+}
+
+.manu-btn{
+    color:#fff;
+    background-color:red;
+    border:none;
+    /* padding (top , right , buttom,left) */
+    /* აქ padding ბორდერსა და ტექსტს შორის არის? */
+    padding:10px 20px ;
+    margin:5px;
+    width:200px;
+    font-size:15px;
+  
+}

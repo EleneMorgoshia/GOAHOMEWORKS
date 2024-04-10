@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Petemoss&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Petemoss&family=Rancho&family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{
+    height:130px;
+    width:130px;
+    border-radius: 50%;
+    border:2px solid rgb(7, 2, 3);
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:8px;
+    /* background-color:black; */
+}
+
+nav a{
+    margin:10px;
+    padding:10px;
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+    font-weight: bold;
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-between ;
+    
+}
+
+nav a:hover{
+    color:rgb(113, 5, 5);
+    text-shadow:5px 0px 80px rgb(96, 3, 3);
+
+}
+
+body{
+    color:black;
+    background-image: url("/Day035/images/background-pic.webp");
+    background-size: 950px;
+}
+
+h2 , h3 {
+    margin-left: 60px;
+    font-family:Wix Madefor Display;
+}
+

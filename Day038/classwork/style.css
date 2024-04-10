@@ -1,0 +1,35 @@
+.div{
+    width:300px;
+    height:300px;
+    background-color: hsl(0, 100%, 50%);
+    position:sticky;
+    z-index:1; /*რამდენად პრიორიტეტულია სხვა ელემენტებთა ნშედარებით */
+    top:0px;
+    bottom:0px;
+    right:0px;
+}
+
+/* .child-div{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    position:absolute;
+    top:0;
+} */
+
+/* p{ */
+    /* position:relative; */
+    /*z-index:2; /*აახლა პარაგრაფი უფრო პრიორიტეტულია და ის გადაფარავს დივს */
+/* } */
+
+
+/*position:
+
+static - defalut value
+relative - გადაადგილების საშუალებას გვაძლევს
+absolute - პრიორიტეტის მიხედვი გადაეწერა ტექსტს... აქაც არის 4 მნიშვნელობა 
+fixed - მიწეპებულია და რაც არ უნდა ჩამოსქროლო გამოყვება
+sticky - 
+
+*/
+
