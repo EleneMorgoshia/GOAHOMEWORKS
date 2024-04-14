@@ -1,0 +1,74 @@
+
+
+
+button{
+    border:none;
+    cursor:pointer;
+    padding:10px;
+/* 
+    გადასვლა მოხდება მაგდენ წამში,რამდენსაც მივუწერ */
+    transition:0.5s;
+}
+
+
+
+button:hover{
+    background-color:green;
+    border-radius:20px;
+    color:#fff;
+}
+
+
+.div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+    width:200px;
+    height:200px;
+    background-color:red;
+    transition: 0.5s;
+    margin-left:100px;
+}
+
+.div:hover{
+    /* xღერძზე წავა 500პიქსელით */
+    /* transform: translateX(500px); */
+
+    /* დატრიალდება დივი 360 გრადუსით */
+    /* transform:rotate(360deg); */
+    
+    /* დაზუმდება 1.1-ით */
+    transform:scale(1.1)
+}
+
+.second-div{
+    background-color: blue;
+    width:200px;
+    height:200px;
+    transition:0.5s;
+    cursor:pointer;
+}
+
+.second-div:hover{
+    transform:scale(1.2) translateY(-5px);
+    color:blueviolet;
+}
+
+.second-div:active{
+    transform:translateY(-100px);
+}
+
+.third-div{
+    background-color: green;
+    width:200px;
+    height:200px;
+    /* transform:skewY(90deg); */
+}
+
+.third-div:active{
+    transform:skewY(90deg); 
+}
+
+

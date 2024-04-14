@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body-ს გასტილვა */
+body{
+    font-family:Roboto;
+    /* height:100vh; */
+    background-image: url('/Day038/images/cover.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+header{
+    width:100%;
+}
+
+/* nav-ის გასტილვა */
+nav{
+/* იმისთვის,რომ header-ის ელემენები ჰორიზონტალურად განლაგდეს, მათ მშობელ ელემენტს უნდა გავუწეროთ flex */
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+
+    padding:20px;
+    margin:20px;
+    gap:50px;
+}
+
+/* უშუალოდ ლინკების გასტილვა */
+nav a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+  
+}
+
+/* ლინკების დიზაინი */
+nav a:hover{
+    color:blueviolet;
+    text-shadow:2px 1px black;
+}
+
+/* ღილკის გასტილვა */
+.btn{
+
+    padding:10px 30px;
+    background-color:rgb(65, 6, 158);
+    color:#fff;
+    width:120px;
+    height:fit-content;
+    font-size:18px;
+    border-radius:10px;
+    border:none;
+    
+    transition:0.5s;
+    cursor:pointer;
+}
+
+
+/* main-section -ის გასტილვა, რომელიც მოიცასვ h1-ს, input-ს და პარაგრაფს */
+.main-section{
+    /* უნდა გავუწეროთ flex, რათ შევძლოთ ელემენტების ვერტიკალურად განლაგება */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    /* height:80vh; ამის დაწერის ლეგიტიმაცია მაქვს? */
+    width:100%;
+
+    margin-top:80px;
+}
+
+/* h1-ების გასტილვა (ესე გასტილვა ალაბათ არასწორია!)*/
+.first-h1{
+    font-size:65px;
+    color:#fff;
+    width:40%;
+    margin-left:250px;
+}
+
+.second-h1{
+    font-size:65px;
+    color:#fff;
+    width:40%;
+    margin-left:160px;
+}
+
+.third-h1{
+
+    font-size:65px;
+    color:#fff;
+    width:40%;
+    margin-left:80px;
+}
+
+/* form-ის გასტილვა */
+form{
+    margin-top:10px;
+}
+/* input-ის გასტილვა */
+.input{
+    border-radius:15px;
+    padding:10px 30px;
+    color:black;
+    background-color:#fff;
+    width:600px;
+    height:45px;
+    box-shadow: 0px 0px 10px white;
+
+}
+
+/* პარაგრაფის გასტილვა */
+.under-p{
+    margin-top:30px;
+    color:#fff;
+    font-weight: 900;
+}
+
+/* ბოლო პარაგრაფის გასტილვა */
+.cls-p{
+    margin-top:120px;
+    color:#fff;
+
+}

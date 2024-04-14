@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* body-ის გასტილვა */
+body{
+    height:100vh;
+    font-family:Lexend Deca;
+
+    /* უნდა გავუწეროთ flex , რათა "Challenge by Frontend Mentor. Coded by Your Name Here." მთავარი კონტენტის ქვემოთ იყოს */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+/* მთავარი კონტეინერის  გასტილვა */
+section{
+
+    /* იმისთის,რომ ჰორიზონტალურად განლაგდეს სამივე დივი, უნდა გავუწეროთ flex */
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+
+
+}
+
+/* პირველი დივის გასტილვა */
+.first-div{
+    /* უნდა გავწეროთ flex , რათა ელემენები ვერტიკალურად განლაგდეს */
+    display:flex;
+    flex-direction:column;
+
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+    width:350px ;
+    height:550px ;
+    background-color:hsl(31, 77%, 52%);
+
+}
+
+/* ლოგოს გასტილვა */
+.first-logo{
+    margin:20px;
+    margin-top:50px;
+}
+
+/* h1-ის გასტილვა */
+.first-h1{
+    font-family:Big Shoulders Display;
+    font-weight:700;
+    font-size:40px;
+    color:#fff;
+    margin:10px;
+    padding:10px;
+
+}
+
+/* პარაგრაფის გასტილვა */
+.first-p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size:18px;
+    word-spacing: 2px;
+    /* opacity:80%; */
+
+    margin:10px;
+    padding:10px;
+}
+
+/* ღილაკის გასტილვა */
+.cls-p{
+    margin:10px;
+    padding:10px;
+
+    margin-top:50px;
+}
+
+.cls-p button{
+    border-radius:35px;
+    background-color:white;
+    color: hsl(31, 77%, 52%);
+    width:200px;
+    height:50px;
+    border:none;
+    font-size:15px;
+    font-weight:700px;
+}
+
+
+/* მეორე დივის გასტილვა */
+.second-div{
+    /* უნდა გავწეროთ flex , რათა ელემენები ვერტიკალურად განლაგდეს */
+    display:flex;
+    flex-direction:column;
+
+
+    width:350px ;
+    height:550px ;
+    background-color: hsl(184, 100%, 22%);
+}
+
+/* მეორე ლოგოს გასტილვა */
+.second-logo{
+    margin:20px;
+    margin-top:50px;
+}
+
+/* h1-ის გასტილვა */
+.second-h1{
+
+    font-family:Big Shoulders Display;
+    font-weight:700;
+    font-size:40px;
+    color:#fff;
+    margin:10px;
+    padding:10px; 
+
+
+}
+
+/* პარაგრაფის გასტილვა */
+.second-p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size:18px;
+    word-spacing: 2px;
+  
+
+    margin:10px;
+    padding:10px;
+
+}
+
+/* ღილაკის გასტილვა */
+.cls-p-2{
+
+    margin:10px;
+    padding:10px;
+
+    margin-top:50px;
+
+}
+
+.cls-p-2 button{
+
+    border-radius:35px;
+    background-color:white;
+    color:  hsl(184, 100%, 22%);
+    width:200px;
+    height:50px;
+    border:none;
+    font-size:15px;
+    font-weight:700px;
+}
+
+
+/* მესამე დივის გასტილვა */
+.third-div{
+    /* უნდა გავწეროთ flex , რათა ელემენები ვერტიკალურად განლაგდეს */
+    display:flex;
+    flex-direction:column;
+ 
+  
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    width:350px ;
+    height:550px ;
+    background-color:hsl(179, 100%, 13%);
+}
+
+/* ლოგოს გასტილვა */
+.third-logo{
+    margin:20px;
+    margin-top:50px;
+}
+
+/* h1-ის გასტილვა */
+.third-h1{
+
+    font-family:Big Shoulders Display;
+    font-weight:700;
+    font-size:40px;
+    color:#fff;
+    margin:10px;
+    padding:10px; 
+
+}
+
+/* პარაგრაფის გასტილვა */
+.third-p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size:18px;
+    word-spacing: 2px;
+  
+
+    margin:10px;
+    padding:10px;
+}
+
+/* ღილაკის გასტილვა */
+.cls-p-3{
+    margin:10px;
+    padding:10px;
+
+    margin-top:50px;
+}
+
+.cls-p-3 button{
+    border-radius:35px;
+    background-color:white;
+    color: hsl(179, 100%, 13%);
+    width:200px;
+    height:50px;
+    border:none;
+    font-size:15px;
+    font-weight:700px;
+}

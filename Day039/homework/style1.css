@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Dancing+Script:wght@400..700&family=Lexend+Deca:wght@100..900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Dancing+Script:wght@400..700&family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Dancing+Script:wght@400..700&family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Dancing+Script:wght@400..700&family=Lexend+Deca:wght@100..900&family=Oswald:wght@200..700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* header-ის გასტილვა,რომელიც მოიცავს ლინკებს და პარაგრაფს */
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+
+    width:100%;
+    height:70px;
+    padding:10px; 
+    margin:10px; 
+
+    background-color:#fff;
+}
+
+.first-nav{
+    display:flex;
+    flex-direction:row;
+  
+    
+    gap:40px;
+}
+
+.first-nav a{
+    font-size:20px;
+    text-decoration:none;
+    color:black;
+
+}
+
+.header-p {
+    font-family:Dancing Script;
+    font-size:30px;
+    font-weight:bolder;
+}
+
+.second-nav{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+  
+
+    gap:40px;
+    margin-right:80px;
+
+}
+
+.second-nav a{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+}
+
+/* ღილაკების გასტილვა */
+.first-button{
+    border-radius:10px;
+    border:none;
+    background-color:wheat;
+    font-size:25px;
+    padding:10px;
+    margin:10px;
+}
+
+.second-button{
+    border-radius:10px;
+    margin:15px;
+    padding:15px;
+    color:#fff !important;
+    background-color:black;
+
+}
+
+
+
+
+/* main-ის გასტილვა , რომელიც მოიცავს ფეიჯის მთავარ  ნაწილს */
+main{
+    background-image:url('/Day039/images/cover-2.webp');
+    background-size: cover;
+    background-repeat: no repeat;
+    font-size:20px;
+    /* width:100%; */
+    height:550px;
+}
+
+.first-section{
+
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+}
+
+.buttons-nav{
+    margin-top:30px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+
+    cursor: pointer;
+    transform: 0.5s;
+
+    gap:10px;
+}
+
+.buttons-nav a{
+    text-decoration:none;
+    border-radius:35px;
+    margin:10px;
+    padding:15px 20px;
+    color:#fff;
+    border:1px solid black;
+    background-color: rgba(0, 0, 0, 0.533);
+}
+
+.buttons-nav a:hover{
+    background-color: #ffffffd3;
+}
+
+/* მეორე section, რომელიც მოიცავს მთავარ კონტენტს ფეიჯის */
+.second-section{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+
+
+}
+
+.first-h1{
+    color:#fff;
+    margin-top:30px;
+    font-size:50px;
+    font-weight: 900;
+  
+
+}
+
+.second-h1{
+    color:#fff;
+    font-size:50px;
+    font-weight: 900;
+}
+
+.middle-p{
+    color:#fff;
+    margin-top:10px;
+    line-height: 40px;
+}
+
+.additional-p{
+    color:white;
+}
+
+form{
+    margin-top:20px;
+}
+
+.search-input{
+    border-radius:35px;
+    /* border:1px solid black; */
+    width:600px;
+    height:50px;
+    font-size:15px;
+    font-weight: 1200px;
+
+    padding:10px;
+    margin:10px;
+}
+
+.last-nav{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+
+    margin:10px;
+    padding:10px;
+}
+
+.last-nav a{
+    
+    text-decoration: none;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:35px;
+    padding:10px;
+    margin:10px;
+}
+
+footer{
+    background-color: #fff;
+    /* height:20px; */
+
+}

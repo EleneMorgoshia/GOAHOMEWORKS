@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body-გასტილვა */
+body{
+    height:100vh;
+    font-family:Montserrat, Fraunces;
+    background-color:hsl(30, 38%, 92%);
+
+    /* იმისთის,რომ კონტენტი ცენტრში იყოს და "Challenge by Frontend Mentor. Coded by Your Name Here." მთავრი კონტეინერის ქვეშ, უნდა გავუწეროთ flex */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+/* ფოტოს გასტილვა */
+img{
+    width:300px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+    height:100%;
+}
+
+/* მთავარი კონტინერი გასტილვა */
+section{
+    /* იმისთვის, რომ ელემენტეი ჰორიზონტალურად განლაგდეს , გავუწერთ flex-ს */
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    /* flex-direction:row; */ /*ეს რატომ არ სჭირდება?? */
+
+    border-radius:20px;
+    background-color:#fff;
+
+    width:700px;
+    height:600px;
+
+}
+
+/* დივის გასტილვა,რომელშიც მოთავსებულია კონტენტის მარჯვენა მხარე */
+.intro-div{
+    padding:0px 20px;
+
+    /* იმისთვის,რომ ელემენეტები ვერტიკალურად განლაგდეს, უნდა გავუწეროთ flex. */
+    display:flex;
+    flex-direction:column; 
+
+}
+
+/* პარაგრაფის გასტილვა */
+.perfume-p{
+    margin:10px;
+    padding:10px;
+    letter-spacing:4px;
+    opacity:60%;
+    font-weight: 500;
+    margin-top:30px;
+}
+
+/* h1-ის გასტილვა */
+.intro-div h1{
+    font-family:Fraunces;
+    margin:10px;
+    padding:10px;
+    font-size:45px;
+  
+}
+
+/* პარაგრაფის გასტილვა */
+.intro-p{
+
+    margin:10px;
+    padding:10px;
+    opacity:60%;
+    /* სტრიქონებს შორის დაშორება */
+    line-height:25px;
+}
+
+/* პარგრაფის გასტილვა(ახალი ფასის) */
+.price-p{
+    margin:10px;
+    padding:10px;
+    font-size:40px;
+    font-weight:700;
+    font-family:Fraunces;
+    color: hsl(158, 36%, 37%);
+    width:100%;
+ 
+   /* გავუწერთ flex-ს , რათა მისი შვილი ელემენტი გაიცენტროს */
+    display:flex;
+    align-items:center;
+    gap:20px;
+
+}
+
+
+/* პარაგრაფის გასტილვა(ძველი ფასის) */
+.old-price-p{
+
+    font-size:15px;
+    text-decoration:line-through;
+    color:hsl(228, 12%, 48%);
+}
+
+/* ბოლო ღილაკის გასტილვა */
+button{
+    margin:20px;
+    padding:20px 40px;
+    background-color:hsl(158, 36%, 37%);
+    color:#fff;
+    width:80%;
+    font-size:20px;
+    border-radius:10px;
+    border:none;
+    
+    transition:0.5s;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:hsl(157,44%,17%);
+}
