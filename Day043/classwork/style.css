@@ -1,0 +1,31 @@
+.parent-container{
+    width:600px;
+    height:600px;
+    background-color:red;
+    border:5px ;
+    box-sizing:border-box;
+
+
+    /*grid part */
+    display:grid;
+    /* repeat არის ფუნქცია , რისი საშუალებითაც იმდენჯერ გაამეორებინებ , რამდენჯერაც სურვილი გაქვს  */
+    /* grid-template-columns: 100px 50px repeat(2,auto);   */
+
+    grid-template-columns:auto auto auto;
+    /* grid-template-rows:300px 300px; */
+    gap:15px;
+
+}
+
+.child-container{
+    background-color:blue;
+
+
+}
+
+.item1{
+    grid-column-start: 4;
+    grid-column-end: 2;
+    grid-row-start:1;
+    grid-row-end:3;
+}

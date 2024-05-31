@@ -1,0 +1,316 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body-ს გასტილვა */
+body{
+    height:100vh;
+    font-family:sans-serif;
+}
+
+/* header-ის გასტილვა */
+header{
+    
+    /* ვუწერთ flex , რათა headerის ორი მთავარი კონტენტი ვერტიკალურად განლაგდეს */
+    display:flex;
+    flex-direction:column;
+
+    padding:0px 20px;
+    height:80px;
+   
+}
+
+/* header-top დივის გასტილვა , რომელიც მოიცავს ფოტოს და პარაგრაფებს */
+.header-top{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:10px;
+    
+}
+
+.header-top-left{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:10%;
+
+    gap:10px;
+}
+
+.header-top-left p{
+    font-size:10px;
+}
+
+.header-top-right{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    gap:20px;
+}
+
+/* header-ის მეორე ნაწილი */
+/* უნდა გავსტილოთ nav , რომელიც მოიცავს დივებს და ul-ს */
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+/* title-manu-containter დივი , რომელიც მოიცავს 2 დივს(შვილები) */
+.title-manu-containter{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    align-items:center;
+
+    width:60%
+}
+
+/* title კლასის მქონე დივის გასიტლვა,რომელიც მოიცვს ფოტოს და h1-ს */
+.title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+/* ლინკების გასტილვა */
+.title-manu-containter .manu{
+    display:flex;
+    justify-content: space-between;
+
+    width:70%; /*გავზარდეთ, რათა ერთმანეთს არ მიეწებონ */
+    list-style-type:none;
+}
+
+
+.navbar-buttons{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:20%; 
+}
+
+.navbar-buttons button{
+    margin:10px;
+    padding:15px 25px;
+    border-radius:30px;
+    border:none;
+    cursor:pointer;
+    color:#fff;
+}
+
+.navbar-buttons i{
+    font-size:25px;
+}
+
+/* main განყოფილებაზე გადასვლა */
+/* main-ის გასტილვა */
+
+main{
+    background-image: url('/Day042/images/cover-pic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    margin-top:50px;
+    height:100vh;
+
+}
+
+/* main-div ის გასტილვა , რომელიც მოიცავს h1-ს , პარაგრაფს და ღილაკს */
+.main-div{
+    display:flex;
+    flex-direction:column;
+
+    margin-top:20px;
+   
+}
+
+
+/* h1-ის გასტილვა */
+.first-h1{
+    font-size:50px;
+    color:black;
+    line-height:60px;
+    margin:10px;
+}
+
+/* პარაგრაფის გასტილვა */
+.first-p{
+    color:black;
+    width:50%;
+    margin:10px;
+    line-height:30px;
+    margin-top:15px;
+
+    
+}
+
+/* ღილაკის გასტილვა */
+
+.button{
+    margin:10px;
+    margin-top:30px;
+    padding:15px 25px;
+    color:#fff;
+    background-color:orange;
+    border-radius:20px;
+    border:none;
+    font-size:18px;
+    width:150px;
+    
+}
+
+/* ფოტოს(თათის) გასტილვა */
+.left-paw{
+    position:absolute;
+    transform:rotate(-90deg);
+    left: 0;
+    bottom:200px;
+
+    cursor:pointer;
+    margin:10px;
+}
+
+/* წრის ფორმის ღილაკების გასტილვა */
+.parent-div{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+
+   margin-top:45px;
+}
+
+.child-div{
+    border-radius:50%;
+    background-color:white;
+    border:1px solid black;
+
+    width:10px;
+    height:10px;
+    margin-left:15px;
+    /* margin-bottom:0px; */
+}
+
+/* footer-ის გასტილვა */
+footer{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+
+   background-color: bisque;
+}
+
+/* პირველი დივის გასტილვა , რომელიც მოიცავს ფოოს ,h1-ს და ღილაკს */
+.first-div{
+    display:flex;
+    flex-direction:column;
+
+}
+
+.img-1{
+    width:150px;
+    height:150px;
+    
+}
+
+.h-3{
+    color:brown;
+    margin-top:15px;
+    margin-left:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;
+    line-height:30px;
+}
+
+.btn-1{
+    padding:15px 25px;
+    color:brown;
+    background-color:white;
+    border-radius:35px;
+    border:1px solid brown;
+    font-size:18px;
+    width:150px;
+    margin-top:25px;
+}
+
+/* მეორე დივის გასტილვა */
+
+.div-2{
+    display:flex;
+    flex-direction:column;
+    margin-left:250px;
+
+}
+
+.img-2{
+    width:130px;
+    height:130px;
+    margin-top:15px;
+    
+}
+
+.second-h3{
+    color:brown;
+    margin-top:25px;
+    margin-left:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;
+    line-height:30px;
+}
+
+.btn-2{
+    padding:15px 25px;
+    color:brown;
+    background-color:white;
+    border-radius:35px;
+    border:1px solid brown;
+    font-size:18px;
+    width:150px;
+    margin-top:21px;
+}
+
+/* მესამე დივის გასტილვა */
+.div-3{
+    display:flex;
+    flex-direction:column;
+    margin-left:250px;
+}
+
+.img-3{
+    width:150px;
+    height:150px;
+    margin-top:15px;
+}
+
+.third-h3{
+    color:brown;
+    margin-top:15px;
+    margin-left:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;
+    line-height:30px;
+}
+
+.btn-3{
+    padding:15px 25px;
+    color:brown;
+    background-color:white;
+    border-radius:35px;
+    border:1px solid brown;
+    font-size:18px;
+    width:150px;
+    margin-top:15px;
+}

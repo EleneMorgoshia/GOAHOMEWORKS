@@ -1,0 +1,49 @@
+.first-div{
+    width:100px;
+    height:100px;
+    background-color: red;
+    
+    /* რამდენ ხანში მოხდება ცვლილება */
+    /* transition:0.5s; */
+    /* ელემენტის გადაადგილება 50 პიქსელით მარჯვნივ */
+    transform:translate(50px);
+
+    
+
+}
+
+div:hover{
+ 
+    /* როცა კურსორს მივიტანთ დივთან , დივი 25პიქქსელით მარჯვნივ წამოწევვა და 10 პიქსელით ვერტიკალურად */
+    /* დადებითი მნიშვნელობები: 1 მნიშვნნელობა - მარჯვნივ ; 2 მნიშვნელობა - ქვემოთ */
+    /* უარყოფითი მნიშვნელობეი: 1 მნიშვნელობა - მარცხნივ ; 2 მნიშვნელობა - ზემოთ */
+    /* transform:translate(25px,10px); */
+
+    transform:translateX(500px);
+
+    transition:2s; /*2წამში 500პიქსელით მარჯვნივ წამოვა */
+}
+
+.second-div{
+    width:100px;
+    height:100px;
+
+    background-color:green;
+}
+
+
+.section-1{
+    width:100px;
+    height:100px;
+    background-color:purple;
+    border-radius:10px;
+    margin:100px;
+}
+
+.section-1:hover{
+
+    transform:rotate(45deg);
+
+    /* transfomr-origin:-ის გამოყენებიტ სასურველი მიმართლებით დავატრიალებთ */
+    transform-origin:top right;
+}

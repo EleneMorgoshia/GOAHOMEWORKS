@@ -1,0 +1,106 @@
+<!--კლასში გაკეთებული დიზაინის დასრულება-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Day042/homework/style.css">
+</head>
+<body>
+    <!-- header კონტეინერი, სადაც მოთავსებულია კონტენტის ზედა ნაწილი -->
+    <header>
+        <!-- ვქმნით დივს,რომელშიც მოთავსებულია 2(შვილი) დივი , რათა flex ის საშუალებით ისინი ჰორიზონტალურად განვალაგოთ -->
+        <div class="header-top">
+            <div class="header-top-left">
+                <img src="/Day042/images/bell-icon.png" alt="bellring-icon" width="15">
+                <p>COVID-19 Update</p>
+            </div>
+
+            <div class="header-top-right">
+                <p>Careers</p>
+                <p>Newsletter</p>
+                <p>languages</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <nav>
+            <!-- კიდევ ერთ დივში ვსვამთ, რათა ul-ის ელემენტები მარცხივ გამოწიო flexის საშუალებით -->
+            <div class="title-manu-containter">
+                <div class="title">
+                    <img src="/Day042/images/another-pic.png" alt="dog" width="100">
+                    <h1>HUMANE <br> SOCIATY</h1>
+                </div>
+
+                <ul class="manu">
+                    <li>About</li>
+                    <li>Rescue</li>
+                    <li>Veterinary</li>
+                    <li>Pet insurance</li>
+                    <li>Get involved</li>
+                </ul>
+            </div>
+            <div class="navbar-buttons">
+                <ion-icon name="search-outline"></ion-icon>
+                <button style="background-color:red;">Adopt A Pet</button>
+                <button style="background-color:yellow;">Donate New</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--main-section რომელიც მოიცავს ფეიჯის მთავარ კონტენტს-->
+        <section class="main-section">
+            
+            
+            <img class="left-paw" src="/Day042/images/pow.png" alt="" width="30">
+            <div class="main-div">
+                <h1 class="first-h1">Protect All <br> animals</h1>
+                <p class="first-p">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Tenetur, amet suscipit 
+                    veniam porro deleniti maiores mollitia vero 
+                    in possimus 
+                </p>
+
+                <button class="button">Donate Now</button>
+            </div>
+        </section>
+        <!-- წრის ფორმის ღილაკების შესაქმნელად ვიყენებთ div-ს -->
+        <div class="parent-div">
+            <div class="child-div"></div>
+            <div class="child-div"></div>
+            <div class="child-div"></div>
+            <div class="child-div"></div>
+            
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="div-1">
+            <img class="img-1" src="/Day042/images/house.png" alt="house">
+            <h3 class="h-3">Rescue  <br> Animals</h3>
+            <button class="btn-1">Learn now</button>
+
+        </div>
+
+        <div class="div-2">
+            <img class="img-2" src="/Day042/images/vet-service.png" alt="vet">
+            <h3 class="second-h3">Veterinary <br> Services</h3>
+            <button class="btn-2">Learn now</button>
+
+        </div>
+
+        <div class="div-3">
+            <img  class="img-3" src="/Day042/images/pet-insurance.png" alt="pet-insurance">
+            <h3 class="third-h3">Pet<br> Insurance </h3>
+            <button class="btn-3">Learn now</button>
+
+        </div>
+    </footer>
+</body>
+</html>

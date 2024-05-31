@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body-ის გასტილვა */
+body{
+    font-family:Outfit;
+    height:100vh;
+    background-color: hsl(216, 50%, 16%);
+
+    /* უნდა გავუწეროტ flex, რათა კონტენტი ცენტრში გადავიტანოთ და "Challenge by Frontend Mentor. Coded by Your Name Here." კონტეინერის ქვემოთ იყოს */
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+
+}
+
+/* main section-ის გასტილვა, რომელიც მოიცავს მთლიან კონტენტს */
+.main-section{
+    /* უნდა გავუწეროთ flex,რათა ელემენტები ვერტიკალურად განლაგდნენ */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:35px;
+    background-color:  hsl(217, 54%, 11%);
+    border:none;
+
+    margin:10px;
+    padding:10px;
+    height:600px;
+    width:350px;
+
+  
+}
+
+/* ფოტოს გასტილვა */
+.opn-img{
+    width:250px;
+    height:250px;
+    border-radius:10px;
+    border:none;
+
+    margin:25px 35px;
+    
+}
+
+/* opn-section-ის გასტილვა , რომელიც მოიცავს h2ს და პარაგრაფს */
+.opn-section{
+    /* უნდა გავუწეროთ flex , რათა ელემენტები ვერტიკალურად განლაგდეს */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    /* width:450px; */
+}
+
+/* h2-ის გასტილვა */
+.opn-h2{
+    color:hsl(0, 0%, 100%);
+    font-size:27px;
+
+    
+}
+
+/* p-ს გასტილვა */
+.opn-p{
+    /* color:hsl(0, 0%, 100%); */
+    color: hsl(215, 32%, 27%);
+    font-size:18px;
+    line-height:30px;
+
+    width:300px;
+    margin:10px;
+    margin-left:80px;
+  
+    
+    
+}
+
+
+/* second-section-ის გასტილვა ,რომელიც მოიცავს 2 ლოგოს და 2 პარაგრაფს */
+.second-section{
+    /* ელემენტების ჰორიზონტალურად განსალაგებლად უნდა დავწეროთ flex */
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+
+
+   margin:20px;
+
+}
+
+/* პირველი ლოგოს და პარაგრაფის გასტილვა */
+.second-p{
+    color: hsl(178, 100%, 50%);
+    font-size:18px;
+}
+
+/* მეორე ლოგოს და პარაგრაფის გასტილვა */
+.third-p{
+    color: hsl(215, 32%, 27%);
+    font-size:18px;
+    padding-left:40px;
+}
+
+
+/* ბოლო section-ის გასტილვა , რომელიც მოიცავს ფოტოს და პარაგრაფებს */
+.cls-section{
+    /* უნდა გავუწეროთ flex რათა ჯორიზონტალურად განლაგდეს ელემენტები */
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    margin-top:10px;
+    margin-left:20px;
+
+    border-top:1px solid hsl(0, 0%, 100%);
+}
+
+/* ფოტოს გასტილვა */
+.cls-img{
+    width:50px;
+    border-radius:50%;
+    border:1px solid hsl(0, 0%, 100%);
+
+    margin-top:20px;
+
+}
+
+/* პირველი პარაგრაფის გასტილვა */
+.cls-p{
+    color:hsl(215, 32%, 27%);
+    font-size:18px;
+    padding-left:15px;
+    margin-top:20px;
+}
+
+/* მეორე პარაგრაფის გასტილვა */
+.cls-p-2{
+    color:hsl(0, 0%, 100%);
+    font-size:18px;
+    padding-left:5px;
+    margin-top:20px;
+}

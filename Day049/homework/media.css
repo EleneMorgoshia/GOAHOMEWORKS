@@ -1,0 +1,155 @@
+@media (min-width:650px){
+    /* header part */
+    .first-header-div{
+        width:45%;
+    }
+    .second-header-div{
+        margin-left:200px;
+    }
+
+    /* first section of the main part will be changed as the img should be placed horizontally */
+    .first-main-section{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
+
+}
+
+@media (min-width:1200px){
+    /* there will be no burger manu on the 1200px screen.It will be replaced by the ul elements */
+    .br-manu{
+        display:none;
+    }
+
+    /*  ***first div***   */
+    .first-header-div{
+        /* writing flex in order to position elements horizontally */
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between; /*for space between the img and the manu */
+        align-items:center;
+
+        width:50%; /* the  space that is needed for the first div */
+        margin-left:30px;
+
+    }
+
+    nav{
+        display:block;
+    }
+
+    nav ul{
+        /* writing flex in order to position elments horizontally */
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items:center;
+
+    }
+
+    nav ul li{
+        list-style-type: none;
+        font-size:16px;
+        color:#1C1B1B;
+        font-weight: 700;
+
+        margin:10px;
+        padding:15px;
+    }
+
+    .second-header-div{
+        /* writing flex in order to position elements horizontally */
+        display:flex;
+        justify-content:flex-end;
+        align-items: center;
+    
+        width:100px;
+        margin-left:270px;
+    }
+    
+    .second-header-div-img1{
+        display:block;
+    }
+    .second-header-div-img2{
+        display:block;
+    }
+
+    /* images */
+    .second-header-div img{
+        color:#000;
+    
+        margin:5px;
+        padding:5px;
+    }
+
+    .second-header-div-img3{
+        width:4rem;
+    }
+
+    /* the h1,p,button and img from the first main section will be changed as the size of the elements should be increased */
+
+    /* first section that involves 2 divs */
+    .first-main-section{
+        /* writing flex in order to position elements horizontally */
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+
+        background-color: #F0EFEB;
+
+    }
+
+    /* first div that involves h1, p and button elements */
+    .first-div-of-main-section{
+        /* writing flex in order to position elements vertically */
+        display:flex;
+        flex-direction:column;
+
+        margin-left:100px;
+    
+    }
+
+    /* h1 */
+    .first-div-of-main-section h1{
+        color:#000;
+        font-weight: 700;
+        font-size:60px;
+
+        width:90%; 
+    }
+
+    /* p */
+    .first-div-of-main-section p{
+        font-size:24px;
+        color:#000;
+
+        margin-top:20px;
+        padding:5px;
+    }
+
+    /* button */
+    .first-div-of-main-section button{
+        width:129px;
+        height:36px;
+        font-size:17px;
+        border-radius:100px;
+        background-color: #000;
+        color:#fff;
+
+        margin-top:15px;
+    }
+
+    .first-div-of-main-section button:hover{
+        background-color: #fff;
+        cursor:pointer;
+        color:black;
+    }
+
+    .img-of-the-second-div{
+        width:599px;
+        height:521px;
+    }
+}

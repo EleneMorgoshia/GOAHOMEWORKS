@@ -1,0 +1,58 @@
+@media (max-width:1500px){
+    header{
+        padding:10px 0;
+    }
+    nav{
+        display:none;
+    }
+    .container1{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding:0 30px;
+
+    }
+}
+
+@media(max-width:1000px){
+    .container1{
+        flex-direction:column;
+        padding:30px;
+    }
+    .container1 img{
+        max-width:30rem;
+    }
+    .container1-text-container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container1-text-container h1{
+        font-size:2.8rem;
+        text-align: center;
+    }
+
+    .container1-text-container p{
+        text-align:center;
+        font-size:1.2rem;
+    }
+
+    /* section2 */
+    .container2 p{
+        width:80%;
+    }
+
+    /* section3 */
+    .card1-section{
+        flex-direction:column;
+    }
+
+    .card1-section-intro h1{
+        font-size:30px;
+    }
+
+    .card1-section-intro p{
+        font-size:30px;
+    }
+}
+

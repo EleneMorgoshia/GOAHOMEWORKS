@@ -1,0 +1,43 @@
+.container{
+    display:grid;
+    grid-template-columns:3fr 1fr;
+    grid-template-rows:100px 300px 100px;
+    border:2px solid red;
+
+    grid-template-areas:
+    'header header'
+    'main aside'
+    'footer footer';
+
+    justify-content: center;
+    align-content:center; 
+    gap:10px;
+    height: 100vh;
+}
+.item{
+  /* იმისთის რომ დივში არსებული ტექსტი შუაში მოვათავსოთ */
+    display:grid;
+    justify-items:center;
+    align-items:center;
+}
+
+.item1{
+    grid-area:header;
+    background-color: blue;
+
+}
+
+.item2{
+    grid-area:aside;
+    background-color: red;
+}
+
+.item3{
+    grid-area:main;
+    background-color: blueviolet;
+}
+
+.item4{
+    grid-area:footer;
+    background-color: yellowgreen;
+}

@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body-ს გასტილვა */
+body{
+    height:100vh;
+    font-family:sans-serif;
+}
+
+/* header-ის გასტილვა */
+header{
+    /* ვუწერთ flex , რათა headerის ორი მთავარი კონტენტი ვერტიკალურად განლაგდეს */
+    display:flex;
+    flex-direction:column;
+
+    padding:0px 20px;
+
+}
+
+/* header-top დივის გასტილვა , რომელიც მოიცავს ფოტოს და პარაგრაფებს */
+.header-top{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:10px;
+}
+
+/* .header-top div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+    padding:10px;
+
+    gap:10px;
+} */
+
+.header-top-left{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:10%;
+
+    gap:10px;
+}
+
+.header-top-left p{
+    font-size:10px;
+}
+
+.header-top-right{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    gap:20px;
+}
+
+/* header-ის მეორე ნაწილი */
+/* უნდა გავსტილოთ nav , რომელიც მოიცავს დივებს და ul-ს */
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+/* title-manu-containter დივი , რომელიც მოიცავს 2 დივს(შვილები) */
+.title-manu-containter{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    align-items:center;
+
+    width:60%
+}
+
+/* title კლასის მქონე დივის გასიტლვა,რომელიც მოიცვს ფოტოს და h1-ს */
+.title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+/* ლინკების გასტილვა */
+.title-manu-containter .manu{
+    display:flex;
+    justify-content: space-between;
+
+    width:70%; /*გავზარდეთ, რათა ერთმანეთს არ მიეწებონ */
+    list-style-type:none;
+}
+
+
+.navbar-buttons{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:20%; 
+}
+
+.navbar-buttons button{
+    margin:10px;
+    padding:15px 25px;
+    border-radius:30px;
+    border:none;
+    cursor:pointer;
+    color:#fff;
+}
+
+.navbar-buttons i{
+    font-size:25px;
+}
+
+main{
+    background-image: url('/Day042/images/cover-pic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* main-განყოფილების გასტილვა */
+
+.main-container{
+    position:relative;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    height:100vh;
+}
+
+
+.main-section{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+
+
+    width:100%;
+    height:100vh;
+    background-image: url('/Day042/images/cover-pic.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.main-div{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    /* align-items:center; */
+    width:70%;
+    margin-left: 100px;
+
+    gap:20px;
+}
+
+.main-section div h1{
+    font-size:50px;
+    color:#fff;
+    line-height:60px;
+    margin:10px;
+}
+.main-section div p{
+    color:#fff;
+    width:50%;
+    margin:10px;
+}
+
+.button{
+    margin:10px;
+    padding:15px 25px;
+    color:#fff;
+    background-color:orange;
+    border-radius:20px;
+    border:none;
+    font-size:18px;
+    width:150px;
+    
+
+}
+
+.left-paw{
+    margin:10px;
+    transform:rotate(-90deg);
+    cursor:pointer;
+}
+
+

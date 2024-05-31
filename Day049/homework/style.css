@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* css reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* body */
+body{
+    font-family:'Roboto',sans-serif;
+    min-height: 100vh;
+    width:100%;
+
+}
+/* styling the header part that involves 2 divs */
+header{
+    /* writing flex in order to position elements horizontally */
+    display:flex;
+    flex-direction:row;
+    /* justify-content:center;
+    align-items:center; */
+}
+
+/* styling the first div that involves the navbar and 2 images  */
+.first-header-div{
+    /* writing flex in order to position the  burger manu and the logo of the company horizontally  */
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+
+    margin:5px;
+    padding:2px;
+
+    width:50%;
+}
+
+/* navbar */
+/* there will not be the  navbar on the 320px(phone) screen. it will be replaced by the burger manu */
+nav{
+    display:none;
+}
+
+nav ul{
+    display:none;
+}
+
+/* burger-manu */
+.br-manu{
+    width:1.5rem;
+}
+
+/* logo of the company */
+.cp-logo{
+    width:80px;
+}
+
+/* styling the second div that involves 3 icons */
+.second-header-div{
+    width:2%;
+    margin-left:60px
+}
+
+/* there will not be the  first and the second icons on the 320px(phone) screen */
+.second-header-div-img1{
+    display:none;
+}
+.second-header-div-img2{
+    display:none;
+}
+
+/* styling the basket icon */
+.second-header-div-img3{
+    width:2.2rem;
+}
+
+
+/* main part that involves the main content of the page */
+/* styling the first section that involves 2 divs */
+.first-main-section{
+    display:flex;
+    flex-direction:column;
+    background-color: #F0EFEB;
+
+    padding:40px 10px;
+}
+
+/* first-div */
+.first-div-of-main-section{
+    display:flex;
+    flex-direction:column;
+}
+
+/* h1 */
+.first-div-of-main-section h1{
+    font-size:30px;
+
+    margin:5px;
+    width:15rem;
+}
+
+/* p */
+.first-div-of-main-section p{
+    font-size:1rem;
+    font-weight:400;
+
+    opacity: 0.9;
+    width:90%;
+    margin:5px;
+}
+
+/* button */
+.first-div-of-main-section  button{
+    font-size:0.9rem;
+    border-radius:100px;
+    background-color: #000;
+    color:#fff;
+
+    width:8.5rem;
+    margin:10px 20px;
+    padding:10px;
+}
+
+/* img from the second div */
+.img-of-the-second-div{
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+ 
+    width:16rem;
+}

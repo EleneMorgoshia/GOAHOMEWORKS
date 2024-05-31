@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+/* css reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* styling the parent div where 3(child) divs are placed */
+.parent-div{
+    height:100vh;
+    /* writing grid in order to create desired layouts */
+    display:grid;
+    grid-template-columns:repeat(3,300px);
+    justify-content: center;
+    align-items: center;
+
+    font-family: Lexend Deca;
+}
+
+/* styling child divs */
+.child-div{
+    /* writing flex in order to position elements vertically */
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    /* align-items: center; */
+    
+    width:300px;
+    height:550px;
+    margin-left:30px;
+  
+}
+
+.div-of-the-child-div{
+    /* writing flex in order to position elements vertically */
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center;
+    align-items: center; */
+
+    margin-top:70px;
+    margin-left:30px;
+
+}
+
+.img{
+    margin-left:30px;
+}
+
+.div-of-the-child-div h1{
+    color:#fff;
+    font-family:Big Shoulders Display;
+    font-weight: 700;
+}
+
+.div-of-the-child-div p{
+    color:#fff;
+    font-weight: 400;
+    line-height: 27px;
+    opacity:0.5;
+
+    width:250px;
+
+    margin-top:30px;
+}
+
+.div-of-the-child-div button{
+    border-radius:35px;
+    width:160px;
+    height:55px;
+
+    margin-top:65px;
+}
+
+.first-div{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+}
+
+.first-div button{
+    background-color: #fff;
+    color:hsl(31, 77%, 52%);
+    font-size:1rem;
+}
+
+.second-div{
+    background-color: hsl(184, 100%, 22%);
+}
+.second-div button{
+    background-color: #fff;
+    color:hsl(184, 100%, 22%);
+    font-size:1rem;
+}
+
+.third-div{
+    background-color:  hsl(179, 100%, 13%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.third-div button{
+    background-color: #fff;
+    color:hsl(179, 100%, 13%);
+    font-size:1rem;
+}

@@ -3,6 +3,12 @@
     padding:0;
     box-sizing:border-box;
 }
+body{
+    background-image: url('/Day036/images/background-pic-food.avif');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
 /* 
 იმისთვის,რომ ლოგო და ლინკები ერთმანეთის ქვემოთ განვალაგო, მივწვდები მათ მშობელ ელემენტს header-ს */
 header{
@@ -64,8 +70,12 @@ nav a{
 /* იმისთვის, რომ შევძლო ნაწერის და ფოტოს ერთმანეთის გვერდი-გვერდ განლაგება , უნდა მივწვდე მშობელ ელემეტნს , section-ს  */
 .first-section{
     display:flex;
-    justify-content:center;
-    align-items:center;
+    flex-direction:column;
+    /* justify-content:center;
+    align-items:center; */
+
+    margin:10px;
+    padding:10px;
 }
 
 /* ტექსტის დიზიანი: */
@@ -73,7 +83,7 @@ nav a{
     /* ტექსტები იქნება ერთმანეთის ქვემოთ */
     display:flex;
     flex-direction:column;
-    padding:50px;
+    padding:20px;
     margin:10px;
 
 }
@@ -85,6 +95,7 @@ nav a{
     margin:10px;
     padding:5px;
     line-height:25px;
+    color:#fff;
 }
 
 /* h1-ს გასტილვა */
@@ -92,6 +103,7 @@ nav a{
    font-size:40px;
    margin:10px;
    padding:5px;
+   color:#fff;
 }
 
 .manu-btn{

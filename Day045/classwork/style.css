@@ -1,0 +1,18 @@
+body{
+   
+    /* იმისთვის ,რომ გავცენტროთ დივი, body-ს,მის მშბელ ელემენტს, უნდა გავუწეროთ grid */
+    display:grid;
+    justify-items:center; /*ეს გადაიტანს დივს ცენტრში */
+    align-items:center;
+    height:100vh;
+}
+
+
+
+.container{
+    border:2px solid red;
+    height:200px;
+    width:500px;
+
+    
+}

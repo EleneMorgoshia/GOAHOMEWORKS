@@ -1,0 +1,55 @@
+
+
+/*** button-ის გასტილვა ***/
+/* button{
+    margin:20px;
+    padding:10px 20px;
+    width:170px;
+    display:flex;
+    justify-content: space-between;
+    font-size:17px;
+    border-radius:20px;
+    border:none;
+
+    transition:1s;
+    cursor:pointer;
+}
+
+button:hover{
+    width:250px;
+} */
+/*** ..........................***/
+body{
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items:center;
+}
+
+
+
+.container{
+    position:relative;
+    width:400px;
+    height:500px;
+    background-color:red;
+    z-index:9999;
+
+    transition:1s;
+    cursor:pointer;
+}
+
+.hover-container{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:70px;
+    width:400px;
+    height:500px;
+    background-color:blue;
+}
+
+.container:hover{
+    opacity:50%;
+}

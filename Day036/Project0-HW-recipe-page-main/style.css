@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body-ის გასტილვა */
+body{
+    font-family:Outfit;
+    /* height:100vh; */
+    background-color: hsl(30, 54%, 90%);
+
+    /* უნდა გავუწეროთ flex , რათა მთავარი section ცენტრში გადავიტანოთ  */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+/* მთავარი section-ის გასტილვა */
+.main-section{
+    /* უნდა გავუწეროთ flex, რათა ელემენტები ვერტიკალურად იყოს განლაგებული */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    border:1px solid black;
+    border-radius:35px;
+    width:700px;
+    background-color:  hsl(0, 0%, 100%);
+    border:none;
+
+}
+
+/* ფოტოს გასტილვა */
+img{
+    width:600px;
+    border-radius:35px;
+    margin-top:30px;
+}
+
+
+
+/* პირველი section-ის გასტილვა, რომელიც მოიცვას h1-ს და პარაგრაფს */
+.opn-section{
+    /* უნდა გავუწეროთ flex, რათა ელემენტები ვერტიკალურად განლაგდეს */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+   
+}
+
+/* h1-ის გასტილვა */
+.opn-h1{
+    font-family:Young Serif;
+    font-size:50px;
+
+    padding:10px;
+    margin:10px;
+
+}
+
+/* პარაგრაფის გასტილვა */
+.opn-p{
+    font-size:16px;
+    line-height:25px;
+
+    margin-left:30px;
+
+}
+
+/* დივის,გასტილვა,რომელიც მოიცავს h3ს და ul-ს */
+.prep-div{
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center;
+    align-items:center; */
+
+    margin-top:30px;
+    margin:20px;
+    padding:12px;
+
+    border:none;
+    background-color:hsl(330, 44%, 86%);
+    border-radius:20px;
+    width:600px;
+
+   
+
+}
+
+/* h3-ის გასტილვა */
+.prep-h3{
+    color:hsl(332, 51%, 32%);
+    font-size:25px;
+    margin:5px;
+    margin-left:25px;
+
+}
+
+/* ul-ის გასტილვა */
+.prep-ul{
+    margin-top:10px;
+    margin-left:50px;
+    gap:60px;
+    line-height: 35px;
+    padding-left:10px;
+}
+
+/* ul- ის li-ს გასტილვა */
+.prep-ul li{
+    padding-left:15px;
+}
+
+/* წერტილების გასტილვა */
+.prep-ul li::marker{
+    color:hsl(332, 51%, 32%);
+}
+
+
+/* ingredients section-ის გასტილვა ,რომელიც მოიცავს h2-ს და ul-ს. */
+.ing-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    margin:10px;
+    
+   
+    width:580px;
+
+}
+
+/* h2-ის გასტილვა */
+.ing-h2{
+    color:hsl(14, 45%, 36%);
+    font-family:Young Serif;
+    font-size:35px;
+    font-weight: 400;
+   
+}
+
+/* ul-ის გასტილვა */
+.ing-ul{
+    margin-top:15px;
+    margin-left:20px;
+
+    line-height: 35px;
+}
+
+.ing-ul li{
+    padding-left:20px;
+}
+
+.ing-ul li::marker{
+    color:hsl(14, 45%, 36%);
+}
+
+
+/* instructions section-ის გასტილვა, რომელიც მოიცავს h2-ს და ol-ს */
+.inst-section{
+    display:flex;
+    flex-direction:column;
+
+    width:600px;
+    margin-top:25px;
+}
+
+/* h2-ის გასტილვა */
+.inst-h2{
+    font-family:Young Serif;
+    font-size:35px;
+    color:hsl(14, 45%, 36%);
+    font-weight: 400;
+
+    margin-left:15px;
+}
+
+/* ol-ის გასტილვა */
+.inst-ol{
+    margin-top:15px;
+    margin-left:40px;
+    line-height:30px;
+
+}
+
+/* ol-ის li-ების გასტილვა */
+.inst-ol li{
+    padding-left:15px;
+}
+
+.inst-ol li::marker{
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+
+/* nutrition section-ის გასტილვა, რომელიც მოიცავს h2-ს , პარაგრაფს და table-ს */
+.nutr-section{
+    display:flex;
+    flex-direction:column;
+
+    margin-top:30px;
+}
+
+/* h2-ის გასტილვა */
+.nutr-h2{
+    font-family:Young Serif;
+    font-size:35px;
+    color:hsl(14, 45%, 36%);
+    font-weight: 400;
+
+
+}
+
+/* პარაგრაფის გასტილვა */
+.nutr-p{
+    margin-top:20px;
+}
+
+/* table-ის გასტილვა */
+table{
+    margin-top:20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size:18px;
+}
+
+.colored-td{
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+}

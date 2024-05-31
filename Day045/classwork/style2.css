@@ -1,0 +1,18 @@
+.container{
+    display:grid;
+    border:2px solid red;
+    grid-template-columns:repeat(2,100px);
+    grid-template-rows:repeat(2,100px);
+    /* ელემენტების სასურველ ადგილას განლაგება */
+    justify-content:center;
+    align-content:center;
+    grid-auto-flow:column; /*იგივეა რაც flexიში flex-direction */
+     
+    border:2px solid black;
+    height:600px;
+    width: 600px;
+}
+
+.item{
+    background-color:red;
+}

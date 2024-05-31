@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    min-height:100vh;
+}
+
+/* styling the header part that involves the h1 and navbar elements  */
+header{
+    /* writing flex in order to position  elements vertically */
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+    height:70vh;
+    background-color: rgba(71,66,56,0.285);
+
+    background-image: linear-gradient(to left,rgba(6,17,56,0.597),rgba(6,17,56,0.597)) ,url("/Day046/images/cover.webp") ;
+    background-size:cover;
+    background-position: center;
+}
+
+/* styling the navbar */
+nav{
+    /* writing flex in order to position  elements horizontally */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    width:80%;
+}
+
+/* styling the h1 which is positioned in the nav part */
+.nav-title{
+    font-size:2rem;
+    color:#5d5959a3;
+}
+
+.nav-title span{
+    color:#fff;
+    font-weight:400;
+    letter-spacing:1px;
+}
+
+hr{
+    background-color: #fff;
+    width:80%; /* it will not involve the whole horizontal line, but the 80% of it  */
+}
+
+
+/* styling the manu part */
+nav ul{
+ 
+    /* writing flex to position elements horizontally */
+    display:flex;
+    margin:10px;
+    padding:10px;
+
+    list-style-type: none;
+    gap:10px;
+}
+
+nav ul li{
+    margin:10px;
+    padding:10px;
+    font-size:0.9rem;
+    color:#fff;
+
+}
+
+nav ul li:hover{
+    color:black ;
+}
+
+/* styling the header intro part , which involves the h1, p and button elements */
+.header-intro{
+    position:relative;
+   
+    /* writing flex in order to position elements vertically */
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   
+    margin:10px;
+    padding:10px;
+    
+    /* PAY ATTENTION TO THE 'POSITION'S TOPIC! */
+    top:15%;
+    /* transform:translateY(-100%)  */
+}
+
+/*** h1 ***/
+.header-intro h1{
+    color:#fff;
+    font-size:2.8rem;
+    letter-spacing: 1px;
+    text-align:center;
+
+    width: 90%;
+}
+
+/*** p ***/
+.header-intro p{
+    color:#fff;
+    width:80%;
+    text-align:center;
+    letter-spacing: 1px;
+    line-height:27px;
+
+    margin:10px;
+    padding:10px;
+
+    /* width:50%; */
+}
+
+/*** button ***/
+.header-intro button{
+    margin:15px;
+    padding:10px 30px;
+    background-color: #ff4500;
+    border:none;
+    color:#fff;
+
+}
+
+/*** Styling the section1 part that involves the one-parent div and 6-child div ***/
+
+/* main */
+main{
+    display:flex;
+  
+    justify-content:center;
+    align-items:center;
+}
+
+
+.section1{
+    /* writing grid in order to crete  desired layouts  */
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); /*for responsive */
+  
+    margin:10px;
+    padding:10px;
+    width:1200px;
+    gap:15px;
+    margin-top:70px;
+}
+
+
+/* child divs */
+.section1 div{
+
+    /* writing flex in order to position elements in the child-div vertically */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    margin:10px;
+    padding:10px;
+}
+
+.section1 div img{
+    width:60px;
+    margin:5px;
+
+    /* filter - changes how an element looks, like making it blurry or changing its color. */
+    filter: invert(28%) sepia(89%) saturate(2667%) hue-rotate(5deg) brightness(105%) contrast(105%);
+}
+
+.section1 div h2{
+    margin:10px;
+    padding:5px;
+    text-align: center;
+    font-size:1.3rem;
+}
+
+.section1 div p{
+    text-align:center;
+    opacity:0.8;
+    line-height: 26px;
+    font-size:0.9rem;
+
+}

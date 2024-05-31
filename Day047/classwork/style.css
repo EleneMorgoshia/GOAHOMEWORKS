@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    min-height:100vh;
+}
+
+/* styling the header part that involves the h1 and navbar elements  */
+header{
+    /* writing flex in order to position  elements vertically */
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+    height:70vh;
+    background-color: rgba(71,66,56,0.285);
+
+    /* background-image: linear-gradient(to left,rgba(6,17,56,0.597),rgba(6,17,56,0.597)) ,url("/Day046/images/cover.webp") ; */
+    background-size:cover;
+    background-position: center;
+}
+
+/* styling the navbar */
+nav{
+    /* writing flex in order to position  elements horizontally */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    width:80%;
+}
+
+/* styling the h1 which is positioned in the nav part */
+.nav-title{
+    font-size:2rem;
+    color:#5d5959a3;
+}
+
+.nav-title span{
+    color:#fff;
+    font-weight:400;
+    letter-spacing:1px;
+}
+
+hr{
+    background-color: #fff;
+    width:80%; /* it will not involve the whole horizontal line, but the 80% of it  */
+}
+
+
+/* styling the manu part */
+nav ul{
+ 
+    /* writing flex to position elements horizontally */
+    display:flex;
+    margin:10px;
+    padding:10px;
+
+    list-style-type: none;
+    gap:10px;
+}
+
+nav ul li{
+    margin:10px;
+    padding:10px;
+    font-size:0.9rem;
+    color:#fff;
+
+}
+
+nav ul li:hover{
+    color:black ;
+}
+
+
