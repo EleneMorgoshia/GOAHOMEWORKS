@@ -1,0 +1,11 @@
+p{
+    font-size:1.5rem;
+
+}
+button{
+    padding:20px 30px;
+    font-size:2rem;
+    border-radius: 20px;
+    margin:20px;
+    cursor:pointer;
+}
