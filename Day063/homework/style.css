@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:130px;
+}
+
+.form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:10px;
+    border:1px solid black;
+    margin:20px 30px;
+    padding:20px;
+}
+
+#login{
+    font-size:30px;
+}
+input{
+    margin:20px;
+    border-radius:6px;
+    width:400px;
+    height:56px;
+    padding-left:10px;
+}
+
+#userName{
+    margin-top:35px;
+}
+
+
+
+input::placeholder{
+    font-size:19px;
+}
+
+button{
+    width:200px;
+    height:46px;
+    border-radius:6px;
+    margin:20px 25px;
+    padding:10px;
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+    transition:1.2s;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color:brown;
+}
+
+.result{
+    border:1px solid black;
+    border-radius:10px;
+    width:400px;
+    height:250px;
+    margin:20px;
+    padding:20px;
+}
+
+.result h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.result p{
+    margin:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:17px;
+    font-weight:bold;
+}
+
+span{
+    color:red;
+    margin-left:5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h4{
+    margin-top:50px;
+    margin-left:0px;
+    font-size:22px;
+    color:rgb(73, 73, 226);
+    transition:1.2s;
+}
+
+h4:hover{
+    cursor:pointer;
+    color:brown;
+}
