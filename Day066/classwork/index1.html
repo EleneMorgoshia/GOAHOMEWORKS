@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Day066/classwork/style1.css">
+</head>
+<body>
+
+    <section class="registration-form">
+        <form>
+            <p>Register</p>
+            <input id="reg-name" type="text" placeholder="name">
+            <input id="reg-pas" type="password" placeholder="password">
+            <input onclick="register()" class="btn" type="button" value="Register">
+        </form>
+    
+        <form id="LogIn-form">
+            <p>Log In</p>
+            <input id="log-name" type="text" placeholder="name">
+            <input id="log-pass" type="password" placeholder="password">
+            <input onclick="login()" class="btn" type="button" value="Log in">
+        </form>
+    
+    </section>
+
+    <p id="alert">wrong</p>
+    <section class="acc">
+       <p>account name _ <span id="accName"></span></p>
+        <button>exit</button>
+    </section>
+    <script src="/Day066/classwork/script1.js"></script>
+</body>
+</html>

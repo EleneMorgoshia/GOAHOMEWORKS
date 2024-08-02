@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Day067/classwork/style.css">
+</head>
+<body>
+    <header id="header">
+        <p id="accName">g.m</p>
+        <button>exit</button>
+    </header>
+    <main>
+        <!--registration-->
+        <form id="registration" class="registration">
+            <p class="title">Register</p>
+            <input  class="input" id="reg-name" type="text" placeholder="name">
+            <input class="input" id="reg-surname" type="text" placeholder="surname">
+            <input class="input" id="reg-pass" type="password" placeholder="password">
+            
+            <p  class="go-login-page">are you register?<span onclick="loginBack()">Login</span></p>
+            <p id="registerAlert"></p>
+            <input class="reg-submit" onclick="register()" class="btn" type="button" value="Register">
+        </form>
+
+
+        <!--login-->
+        <form id="Login" class="Login">
+            <p class="title">Login</p>
+            <input  class="input" id="log-name" type="text" placeholder="name">
+            <p></p>
+            <input class="input" id="log-pass" type="password" placeholder="password">
+            <p></p>
+            <p class="go-login-page">are you not register?<span onclick="regBack()">Register</span></p>
+            
+            <p id="loginAlert"></p>
+            <input class="reg-submit" onclick="login()" class="btn" type="button" value="Register">
+        </form>
+    </main>
+
+    <script src="/Day067/classwork/script.js"></script>
+</body>
+</html>

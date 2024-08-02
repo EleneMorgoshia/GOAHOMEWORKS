@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;;
+    box-sizing:border-box;
+}
+body{
+    font-family:sans-serif;
+}
+header{
+    
+    display:flex;
+    background-color: aliceblue;
+    justify-content: flex-end;
+    align-items:cener;
+    padding:20px 30px ;
+    gap:10px;
+    display:none;
+}
+
+
+header button{
+    padding:15px 20px;
+    border-radius:10px;
+    border:1px solid black;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+}
+
+.registration{
+   
+    display:flex;
+    flex-direction:column;
+    /* justify-content: center; */
+    /* align-items:center; */
+    padding:30px;
+    border-radius:10px;
+    border:3px solid black;
+    /* display:none; */
+}
+
+#registerAlert{
+    color:red;
+    font-size:0.8rem;
+    text-align:center;
+    margin-top:30px;
+}
+
+#loginAlert{
+    color:red;
+    font-size:0.8rem;
+    text-align:center;
+    margin-top:30px;
+}
+.go-login-page{
+    font-size:0.9rem;
+    margin:10px;
+    opacity:0.5rem;
+}
+
+.go-login-page span{
+    cursor:pointer;
+    color:rgb(141, 18, 18);
+
+}
+.title{
+    font-size:3rem;
+    margin:10px;
+    padding:10px;
+}
+
+.input{
+    margin:5px;
+    padding:15px 20px;
+    border-radius:10px;
+    font-size:1.2rem;
+    border:none;
+    border-bottom:2px solid black;
+}
+
+.reg-submit{
+    margin:10px;
+    padding:15px 20px;
+    border-radius:10px;
+    font-size:1.2rem;
+    border:none;
+    margin-top:20px;
+}
+
+.reg-submit:hover{
+    background-color: #333;
+    color:#fff;
+    cursor:pointer;
+}
+
+/* 
+log in page */
+.Login{
+    display:flex;
+    flex-direction:column;
+    /* justify-content: center; */
+    /* align-items:center; */
+    padding:30px;
+    border-radius:10px;
+    border:3px solid black;
+    display:none;
+}

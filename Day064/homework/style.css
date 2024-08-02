@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+
+    gap:20%;
+}
+#figure{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    width:200px;
+    height:200px;
+    background-color:rgb(43, 42, 118);
+    transition:0.5s;
+    
+
+}
+
+#figure h1{
+   color:red;
+}
+
+#figure:hover{
+    background-color: black;
+    cursor:pointer;
+}
+
+#counter{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    height:66px;
+    width:100px;
+    background-color:blue;
+    border:1px solid black;
+}
+
+#counter h1{
+    font-size:40px;
+}
+
+#counter:hover{
+    cursor:pointer;
+    background-color:rgb(217, 117, 117);
+}

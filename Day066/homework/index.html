@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Day066/homework/style.css">
+</head>
+<body>
+    <section>
+        <div class="first-div">
+            <!--Register-->
+            <div class="registration">
+                <h1>Registration</h1>
+                <form>
+                    <input id="reg-name" type="text" placeholder="Enter Your Name"> <br>
+                    <input id="reg-password" type="password" placeholder="Enter Your Password">
+                    <div onclick="registration()" class="regbutton">
+                        <h2>Registration</h2>
+                    </div>
+                </form>
+            </div>
+
+            <!--login-->
+            <div id="right-div" class="login">
+                <h1>LogIn</h1>
+                <form>
+                    <input id="log-name" type="text" placeholder="Enter Your Name"> <br>
+                    <p id="wrong-user" class="under-name"></p>
+                    <input id="log-password" type="password" placeholder="Enter Your Password">
+                    <p id="wrong-password" class="under-passowrd"></p>
+                    <div onclick="login()" class="logbutton">
+                        <h2>LogIn</h2>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="second-div">
+            <h2 style="margin-top:20px;">Account Name_<span id="user-Account-Name"></span></h2>
+        </div>
+    </section>
+    <script src="/Day066/homework/script.js"></script>
+</body>
+</html>
