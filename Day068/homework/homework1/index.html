@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Day068/homework/style.css">
+</head>
+<body>
+    <section>
+        <!--user's info-->
+        <form id="user-info">
+            <h1>Registration</h1>
+            <input id="reg-name" type="text" placeholder="Enter Your Name"> <br>
+            <input id="reg-surname" type="text" placeholder="Enter Your Password"> <br>
+            <input id="reg-age" type="number" placeholder="Enter Your Age"> <br>
+            <input onclick="information()" type="button" value="submit"  class="button">
+
+        </form>
+        
+
+        <!--About user-->
+        <div id="about-user">
+            <h1 class="info">Information:</h1>
+            <p>User Name:<span id="info-name"></span></p>
+            <p>User Surname:<span id="info-surname"></span></p>
+            <p>User Age:<span id="info-age"></span></p>
+            <p onclick="question()" class="question">Do you want to try time traveling?</p>
+        </div>
+
+        <!--time machine-->
+        <form id="time-travel">
+            <h1 class="time-machine">Time Machine</h1>
+            
+            <input id="travle-time" type="number" placeholder="what time do you want to travel to?"> <br>
+            <input id="age"  type="number" placeholder="How Old Are You?">
+            <input onclick="timeMachine()" class="go" type="button" value="Go">
+        </form>
+
+        <!--results-->
+        <section class="results" id="results">
+            <h1>The Year:<span id="result-Year"></span></h1> 
+            <h1>Your Age:<span id="result-Age"></span></h1> 
+        </section>
+        
+    </section>
+
+    <script src="/Day068/homework/script.js"></script>
+</body>
+</html>

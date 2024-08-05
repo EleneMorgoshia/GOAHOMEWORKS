@@ -1,0 +1,148 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color: black;
+}
+
+section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:420px;
+    height:450px;
+    border:3px solid red;
+    border-radius:10px;
+
+}
+
+div{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:420px;
+    height:450px;
+    border:3px solid red;
+    border-radius:10px;
+    
+}
+
+h1{
+    color:#fff;
+    font-size:35px;
+    margin-right:150px;
+
+}
+input{
+    width:300px;
+    height:46px;
+    border-radius:6px;
+    margin-top:10px;
+    font-size:18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left:10px;
+    font-weight: bold;
+}
+
+.button{
+    width:150px;
+    height:49px;
+    border-radius:6px;
+    font-size:18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition:0.6s;
+}
+
+.button:hover{
+    cursor:pointer;
+    background-color: rgb(0, 0, 120);
+}
+
+.info{
+    margin-top:60px;
+    margin-left:30px;
+}
+p{
+    font-size:23px;
+    color:#fff;
+    margin-left:50px;
+}
+
+.question{
+    text-shadow: 0px 0px 25px red;
+    transition:0.6s;
+}
+
+.question:hover{
+    cursor:pointer;
+    color:rgb(0, 0, 120);
+}
+
+span{
+    margin-left:10px;
+    color:red;
+    font-size:28px;
+    text-shadow: 0px 0px 5px blue;
+  
+}
+
+#time-travel{
+    height:300px;
+    display:none;
+  
+}
+
+#time{
+    width:350px;
+    margin-top:-2px;
+    margin-left:20px;
+}
+
+.go{
+    width:150px;
+    height:46px;
+    color:#000;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:20px;
+    margin-left:100px;
+    box-shadow: 0px 0px 25px red;
+    background-color: rgb(3, 3, 167);
+    transition:0.6s;
+}
+
+.go:hover{
+    cursor:pointer;
+    background-color: blue;
+}
+
+#time-travel{
+    height:320px;
+}
+.time-machine{
+    text-shadow: 0px 0px 15px red;
+    margin-top:40px;
+}
+
+#travle-time{
+    margin-left:20px;
+    width:350px;
+}
+.results{
+    display:none
+}
+
+#age{
+    margin-left:20px;
+    width:350px;
+}
