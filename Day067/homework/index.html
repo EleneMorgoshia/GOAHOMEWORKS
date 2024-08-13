@@ -7,42 +7,46 @@
     <link rel="stylesheet" href="/Day067/homework/style.css">
 </head>
 <body>
+    <!--Login form - User's name and user's Password-->
+   <div class="login" id="loginDiv">
+        <h1 class="Loginh1">LogIn</h1>
+        <form class="loginForm">
+            <input id="logName" type="text" placeholder="Enter Your Name"> <br>
+            <p id="wrongUser">Invalid Username</p>
+            <input id="logPass" type="text" placeholder="Enter Your Password"> <br>
+            <p id="wrongPassword">Invalid Password</p>
+            <p id="wrongCombination">Invalid username or  password combination</p>
+            <input onclick="login()" id="logButton" type="button" value="Submit">
+        </form>
+        <p id="registrationParagraph" class="registrationSign" style="text-shadow: 0px 0px 25px green;">Don't have an account? Register</p>
+   </div>
 
-    <header>
-        
-        <h2>E.M</h2>
-        <div>
-            <p>Exit</p>
-        </div>
-    
-    </header>
+   <!--registration form - user's name , password and email-->
+   <div class="Registration" id="registrationDiv">
+        <h1 id="regH1" class="regh1">Registration</h1>
 
-    <main>
-        <section>
-            <!--registration -->
-            <div class="registration">
-                <h1 class="">Registration</h1>
-                <form>
-                    <input type="text" placeholder="Enter Your Name"> <br>
-                    <input type="text" placeholder="Enter Your Surname"> <br>
-                    <input type="text" placeholder="Enter Your Email"> <br>
-                    <input type="text" placeholder="Enter Password"> <br>
-                    <input type="text" placeholder="Repeat The Password">
-                </form>
-            </div>
-    
-            <!--login-->
-            <div class="login">
-                <h1>LogIn</h1>
-                <form>
-                    <input type="text" placeholder="Enter Your Name"> <br>
-                    <input type="text" placeholder="Enter Your Surname"> <br>
-                    <input type="text" placeholder="Enter Your Email"> <br>
-                    <input type="text" placeholder="Enter Password"> <br>
-                </form>
-            </div>
-        </section>
-    </main>
+        <form id="regForm" class="RegistrationForm">
+            <input id="regName" type="text" placeholder="Enter Your Name"> <br>
+            <p id="underName" style="color:green; margin-top:10px; font-weight:bold; display:none">Please fill out this field</p>
+            <input id="regEmail" type="email" placeholder="Enter Your Email"> <br>
+            <p id="underEmail" style="color:green; margin-top:10px; font-weight:bold; display:none">Please fill out this field</p>
+            <input id="regPassword" type="password" placeholder="Enter Your Passoword"> <br>
+            <p id="underPassword" style="color:green; margin-top:10px; font-weight:bold; display:none">Please fill out this field</p>
+            <input onclick="registration()" id="regbutton" type="button" value="Registration"> <br>
+        </form>
+   </div>
+
+   <!--registered successfylly page -->
+   <div class="successfullyReg" id="successfullyReg">
+        <h1 class="successfullyRegh1">You registered successfully</h1>
+        <h3 class="successfullyRegh3" id="backToLogin">(Go back to Login page)</h3>
+    </div>
+
+    <!--Account Page-->
+    <div id="accountDiv" class="accountPage">
+        <h1 style="color:#fff;">E.M</h1>
+        <input id="exitBtn" type="button" value="Exit">
+    </div>
     <script src="/Day067/homework/sciript.js"></script>
 </body>
 </html>

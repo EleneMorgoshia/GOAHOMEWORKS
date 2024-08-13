@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    border:4px solid blue;
+    width:500px;
+    height:250px;
+    gap:30px
+}
+
+p{
+    font-size:2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
