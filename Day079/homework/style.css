@@ -1,0 +1,99 @@
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color: rgb(4, 4, 110);
+    gap:5%;
+}
+
+h1{
+    color:rgb(175, 9, 9);
+    font-weight: bold;
+    font-size:40px;
+    margin-top:-100px;
+}
+.keyboard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    
+}
+
+
+.keys{
+    width:60px;
+    height:300px;
+    /* transition: background-color 0.4s ease, transform 0.4s ease; */
+}
+
+.keys:hover{
+    color: red;
+    cursor:pointer;
+    transform: scale(1.01); 
+}
+.c{
+    background-image: url('/Day079/homework/images/C-key.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.d{
+    background-image: url('/Day079/homework/images/D-key.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.e{
+    background-image: url('/Day079/homework/images/E.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.f{
+   background-image: url('/Day079/homework/images/F-key.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.g{
+    background-image: url('/Day079/homework/images/G-key.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.a{
+    background-image: url('/Day079/homework/images/A-key.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.b{
+    background-image: url('/Day079/homework/images/B-key.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.second-C{
+    background-image: url('/Day079/homework/images/second-C-key.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
