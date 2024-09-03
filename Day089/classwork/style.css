@@ -1,0 +1,23 @@
+body{
+    display:flex;
+ 
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+}
+
+form{
+    padding:20px;
+    margin:20px;
+}
+
+input{
+    margin-top:10px;
+    border-radius:6px;
+    width:400px;
+    height:49px;
+}
+
+span{
+    color:red;
+}

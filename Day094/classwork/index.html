@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            gap:4rem;
+            width:100%;
+            height:100ch;
+        }
+
+        .container div{
+            border:2px solid tomato;
+            border-radius:10px;
+            padding:2rem;
+
+        }
+        button{
+            padding-inline: 2rem;
+            width:100px;
+            border:1px solid gray;
+            border-radius:5px;
+            background:transparent;
+            transition:all 150ms ease;
+        }
+        button:hover{
+            cursor:pointer;
+            background-color:tomato;
+            color:#fff;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <button>Click ITEM</button>
+            <button>Delete ITEM</button>
+        </div>
+    </div>
+
+    <section>
+        
+    </section>
+    <script src="/Day094/classwork/script.js"></script>
+</body>
+</html>
